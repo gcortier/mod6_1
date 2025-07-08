@@ -7,7 +7,8 @@ from fastapi import FastAPI, Form, UploadFile, File
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from loguru import logger
-from modules.calcul import calcul_carre, predict_digit, save_correction
+from modules.calcul import calcul_carre
+from modules.mnist import predict_digit, save_correction
 from prometheus_fastapi_instrumentator import Instrumentator
 
 
