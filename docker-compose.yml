@@ -7,7 +7,7 @@ services:
     # env_file:
     #   - .env
     # volumes:
-    #   - ./docker:/logs
+    #   - ./logs_mnistretrain:/logs  # Montage du volume pour stocker les logs
     environment:
       - API_PORT=${API_PORT}
     networks:
@@ -21,8 +21,8 @@ services:
       - "8501:${STREAMLIT_PORT}"
     # env_file:
     #   - .env
-    volumes:
-      - ./logs:/logs  # Montage du volume pour stocker les logs
+    # volumes:
+    #   - ./logs_mnistretrain:/logs  # Montage du volume pour stocker les logs
     environment:
       - API_URL=${API_URL:-http://backend:8000}
     depends_on:
@@ -37,9 +37,9 @@ services:
     environment:
       - API_PORT=${API_PORT}
     volumes:
-      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./prometheus_mnistretrain/prometheus.yml:/etc/prometheus_mnistretrain/prometheus.yml
     command:
-      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--config.file=/etc/prometheus_mnistretrain/prometheus.yml"
     depends_on:
       - backend
     networks:
@@ -55,8 +55,8 @@ services:
       - API_PORT=${API_PORT}
       - PROMETHEUS_PORT=${PROMETHEUS_PORT}
     volumes:
-      - ./grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards
-      - ./grafana/provisioning/datasources:/etc/grafana/provisioning/datasources      
+      - ./grafana_mnistretrain/provisioning/dashboards:/etc/grafana/provisioning/dashboards
+      - ./grafana_mnistretrain/provisioning/datasources:/etc/grafana/provisioning/datasources
     depends_on:
       - prometheus
     networks:

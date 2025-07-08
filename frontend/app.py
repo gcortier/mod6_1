@@ -2,6 +2,10 @@ import os
 import streamlit as st
 from loguru import logger
 import requests
+from streamlit_drawable_canvas import st_canvas
+import numpy as np
+from PIL import Image
+import io
 
 st.title("Calculateur de carré")
 
@@ -41,4 +45,45 @@ if st.button("Send Data"):
     except requests.exceptions.RequestException as e:
         logger.error(f"Error sending data: {selected_data}")
         st.error(f"Error: {e}")
+
+st.title("API Reconnaissance de chiffres manuscrits (MNIST)")
+
+st.write("Dessinez un chiffre (0-9) ci-dessous :")
+canvas_result = st_canvas(
+    fill_color="rgba(255, 255, 255, 1)",
+    stroke_width=10,
+    stroke_color="#000000",
+    background_color="#FFFFFF",
+    width=280,
+    height=280,
+    drawing_mode="freedraw",
+    key="canvas",
+)
+
+if canvas_result.image_data is not None:
+    img = Image.fromarray((canvas_result.image_data).astype("uint8"), "RGBA")
+    img = img.convert("L")
+    img = img.resize((28, 28))
+    img_array = np.array(img)
+    img_bytes = io.BytesIO()
+    img.save(img_bytes, format="PNG")
+    img_bytes = img_bytes.getvalue()
+    st.image(img, caption="Votre chiffre (28x28)", width=100)
+    if st.button("Prédire"):
+        files = {"file": ("canvas.png", img_bytes, "image/png")}
+        response = requests.post(f"{API_URL}/predict", files=files)
+        if response.ok:
+            pred = response.json()["prediction"]
+            st.success(f"Prédiction du modèle : {pred}")
+            correction = st.selectbox("Corriger la prédiction si besoin :", list(range(10)), index=pred)
+            if st.button("Envoyer la correction"):
+                data = {"correction": correction}
+                files = {"file": ("canvas.png", img_bytes, "image/png")}
+                r = requests.post(f"{API_URL}/correct", data=data, files=files)
+                if r.ok:
+                    st.success("Correction enregistrée !")
+                else:
+                    st.error("Erreur lors de l'enregistrement.")
+        else:
+            st.error("Erreur lors de la prédiction.")
 

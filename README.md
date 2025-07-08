@@ -53,6 +53,10 @@ python -m venv .venv
 ```bash
 .venv\Scripts\Activate.ps1
 ```
+- Installer requierements :
+```bash
+pip install -r requirements.txt
+```
 
 ### 1. Lancer avec Docker Compose
 ```bash
@@ -91,6 +95,11 @@ pip install -r requirements.txt
 # sauvegarder le fichier requirements.txt
 ```bash
 pip freeze > requirements.txt
+```
+
+# lancer les services à la main
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 
