@@ -1,0 +1,91 @@
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    ports:
+      - "8000:${API_PORT}"
+    # env_file:
+    #   - .env
+    # volumes:
+    #   - ./docker:/logs
+    environment:
+      - API_PORT=${API_PORT}
+    networks:
+      - app_network
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: frontend
+    ports:
+      - "8501:${STREAMLIT_PORT}"
+    # env_file:
+    #   - .env
+    volumes:
+      - ./logs:/logs  # Montage du volume pour stocker les logs
+    environment:
+      - API_URL=${API_URL:-http://backend:8000}
+    depends_on:
+      - backend
+    networks:
+      - app_network 
+
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "${PROMETHEUS_PORT}:${PROMETHEUS_PORT}"
+    environment:
+      - API_PORT=${API_PORT}
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+    depends_on:
+      - backend
+    networks:
+      - app_network
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "${GRAFANA_PORT}:${GRAFANA_PORT}"
+    environment:
+      - GF_SECURITY_ADMIN_USER=${GRAFANA_ADMIN_USER}
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_ADMIN_PASSWORD}
+      - API_PORT=${API_PORT}
+      - PROMETHEUS_PORT=${PROMETHEUS_PORT}
+    volumes:
+      - ./grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards
+      - ./grafana/provisioning/datasources:/etc/grafana/provisioning/datasources      
+    depends_on:
+      - prometheus
+    networks:
+      - app_network
+
+  uptime-kuma:
+    image: louislam/uptime-kuma:latest
+    container_name: uptime_kuma
+    ports:
+      - "3001:3001"
+    volumes:
+      - uptime-kuma-data:/app/data
+    restart: unless-stopped
+    networks:
+      - app_network
+
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: node_exporter
+    ports:
+      - "9100:9100"
+    networks:
+      - app_network
+
+
+volumes:
+  uptime-kuma-data:
+
+
+networks:
+  app_network:
+    driver: bridge

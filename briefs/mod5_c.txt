@@ -1,0 +1,54 @@
+Votre mission est de déployer une stack de monitoring en utilisant Prometheus + Grafana pour suivre l’état de santé du système, et Uptime Kuma pour vérifier que l’API répond correctement. En cas de défaillance, une notification Discord devra être envoyée automatiquement.
+Référentiels
+[Atlas IA] Concevoir et implémenter une solution d'IA
+Compétences visées
+Ressources
+code source
+kuma
+Contexte du projet
+L’équipe FastIA souhaite garantir la fiabilité, la performance et la supervision continue de ses solutions IA.
+
+Après avoir structuré votre projet en architecture modulaire (frontend/backend) et mis en place un pipeline CI/CD, vous êtes désormais chargé·e de monitorer la solution en production.
+
+Vous partez d’un squelette de projet prêt à l’emploi (fourni mais vous pouvez utiliser le votre), mais vous devez :
+
+Ajouter et configurer vous-même le dashboard système Grafana n°1860
+Connecter Uptime Kuma à votre API
+Configurer un webhook Discord pour les alertes
+Modalités pédagogiques
+Projet individuel. Vous partez d’un dépôt initial comportant une architecture complète en Docker Compose. Vous devez :
+
+Compléter la configuration Prometheus & Grafana
+Ajouter Uptime Kuma dans le docker-compose.yml
+Connecter Discord via un webhook pour l’alerte d’indisponibilité
+Expliquer le fonctionnement de votre monitoring dans un README clair
+​
+
+Stack technologique imposée :
+
+FastAPI (backend)
+Streamlit (frontend)
+Docker Compose
+Prometheus
+Grafana (dashboard 1860)
+Uptime Kuma
+Discord Webhook
+Modalités d'évaluation
+Le dashboard Grafana 1860 est bien intégré et affiche les métriques système de l’API
+Uptime Kuma vérifie correctement la disponibilité de l’API (/health)
+Le webhook Discord est fonctionnel et notifie une indisponibilité
+Le projet fonctionne intégralement via docker-compose up
+Le README décrit clairement les services, les ports, les dashboards et les configurations
+Livrables
+Code source dans un dépôt Git structuré avec :
+docker-compose.yml complet
+configuration Prometheus (prometheus.yml)
+configuration Grafana (datasource + dashboard 1860)
+service Uptime Kuma dans le Compose
+webhook Discord actif
+Critères de performance
+L’infrastructure est stable et les services sont bien isolés
+Le monitoring système (CPU, mémoire, uptime) est visible dans Grafana
+Le monitoring d’accessibilité de l’API est actif dans Uptime Kuma
+L’élève a compris l’utilité et les enjeux du monitoring dans une démarche MLOps
+Le webhook Discord fonctionne et envoie une notification en cas d’indisponibilité

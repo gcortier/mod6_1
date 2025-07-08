@@ -1,0 +1,44 @@
+Vous devez pousser automatiquement vos images Docker vers Docker Hub à chaque mise à jour de la branche principale. Vous allez mettre en place un pipeline de déploiement continu (CD) à partir du projet CI existant, afin de garantir un flux automatisé de test + build + publication.
+Référentiels
+[Atlas IA] Concevoir et implémenter une solution d'IA
+Compétences visées
+Ressources
+Github action CD
+Contexte du projet
+L'équipe MLOps de FastIA a validé l’architecture technique de votre projet précédent.
+
+Il est désormais temps de passer à l’étape suivante : déployer les images automatiquement sur Docker Hub dès qu’un commit est effectué sur la branche main.
+Cela implique :
+
+de bien versionner son code,
+de préparer son espace Docker Hub,
+d’ajouter un workflow GitHub Actions de CD,
+de relier CI et CD dans une approche fluide et maintenable.
+Modalités pédagogiques
+Travail individuel à partir du dépôt de code du brief précédent. Vous devez :
+
+Créer un compte Docker Hub (si ce n’est pas déjà fait)
+Ajouter deux secrets dans votre dépôt GitHub : DOCKER_USERNAME et DOCKER_PASSWORD
+Créer un fichier .github/workflows/docker-publish.yml
+Définir un tags d’image : latest et se renseigner sur ${{ github.sha }}
+Réutiliser l’image du frontend ou du backend (au choix)
+Vérifier que l’image apparaît bien dans votre espace Docker Hub
+Modalités d'évaluation
+Le workflow docker-publish.yml se déclenche bien sur push main
+Les identifiants sont bien stockés dans Secrets
+L’image est correctement buildée, taguée et poussée
+Le tag latest est bien visible sur Docker Hub
+Un hash Git est utilisé pour tracer précisément la version
+Le cache Docker est correctement utilisé pour optimiser les builds
+Le .env contient une variable APP_VERSION cohérente avec l’image
+Livrables
+Dépôt Git avec le fichier .github/workflows/docker-publish.yml
+.env contenant APP_VERSION
+Lien vers l’image Docker sur Docker Hub
+README.md mis à jour avec les instructions pour pull/run l’image
+Critères de performance
+CI & CD fonctionnent de manière fluide sur GitHub
+Secrets bien utilisés et jamais exposés
+Les images Docker sont traçables, versionnées et reproductibles
+Le cache Docker est bien exploité
+La logique de projet respecte l’architecture MLOps

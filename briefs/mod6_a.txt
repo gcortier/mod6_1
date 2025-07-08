@@ -1,0 +1,111 @@
+M6-Brief1-Projet de test, feedback et réentraînement dynamique sur MNIST
+Assigné
+fr
+
+AS
+Antony Schutz
+créé : 02/07/25
+Vous allez créer une application complète pour tester un modèle de classification MNIST en situation réelle. L'utilisateur dessine un chiffre, l'API prédit, et si la prédiction est incorrecte, elle est corrigée. Les données corrigées sont enregistrées, analysées par Prefect, et peuvent servir à un réentraînement optimisé avec Optuna. Vous devez repartir du template que vous avez créé lors du Module 5 afin d'avoir toutes les ressources de CICD et de monitoring déjà inclus.
+Référentiels
+Compétences transversales
+[Atlas IA] Concevoir et implémenter une solution d'IA
+Compétences visées
+Contexte du projet
+FastIA souhaite tester ses modèles de vision artificielle dans des conditions proches de l'usage réel.
+
+Pour cela, une application utilisateur doit être déployée avec une boucle de feedback humaine.
+
+Cette boucle permet d'améliorer le modèle via un réentraînement périodique.
+
+L'enjeu est de créer une chaîne complète : interface utilisateur (dessin), API de prédiction, mécanisme de correction, stockage, analyse et réentraînement automatique.
+
+​
+
+Analyser les indicateurs de performance du modèle existant via un tableau de bord (ML Flow, TensorBoard ou Grafana) connecté à la chaîne CI/CD.
+Mettre en place un système de détection des dérives (concept drift, data drift) et d’alerte basé sur les performances mesurées dans le temps.
+Préparer les nouvelles données collectées depuis la production : nettoyage, validation, intégration.
+Réentraîner automatiquement le modèle (réexécution d’un pipeline d’entraînement) en déclenchant cette étape via Prefect.
+Utiliser Optuna pour optimiser le modèle (bonus)
+Déployer le nouveau modèle en versionnant les modèles, les données, les métriques et les configurations.
+Documenter les performances avant/après, les choix techniques, les optimisations appliquées, et les conditions de déclenchement d’un nouveau cycle d’amélioration.
+Modalités pédagogiques
+Projet en groupe avec rendu GitHub. Vous utiliserez :
+
+Streamlit pour une interface de dessin (via st_canvas du module streamlit-drawable-canvas).
+L'image dessinée est convertie en array NumPy 28x28 et envoyée à FastAPI.
+FastAPI reçoit l'image, prédit la classe (avec un modèle CNN), retourne le résultat.
+L'utilisateur peut corriger via un selecteur de 0 à 9 et un bouton "Corriger".
+La correction et l'image sont stockées (par exemple en CSV ou base SQLite).
+Toutes les heures, Prefect analyse les nouvelles données :
+
+Si plus de X échecs sont détectés sur une classe => réentraînement avec les nouvelles données + ancien dataset.
+Le réentraînement est optimisé avec Optuna. Exemple de recherche d'hyperparamètres :
+​
+
+Transformer l'image en niveau de gris 28*28
+
+​
+
+1
+ # Préparation de l'image pour l'API
+img = Image.fromarray(canvas_result.image_data.astype("uint8"), "RGBA")
+img = img.convert("L")  # Conversion en niveaux de gris
+img = img.resize((28, 28))  # Redimensionnement pour MNIST
+img_array = np.array(img)
+img_bytes = io.BytesIO()
+img.save(img_bytes, format="PNG")
+img_bytes = img_bytes.getvalue()
+
+Appel à l'API FastAPI
+files = {"file": ("canvas.png", img_bytes, "image/png")}
+response = requests.post("http://fastapi:8000/predict", files=files)
+
+​
+
+Utiliser Optuna
+
+​
+
+1
+import optuna
+def objective(trial):
+lr = trial.suggest_float("lr", 1e-5, 1e-2, log=True)
+dropout = trial.suggest_float("dropout", 0.1, 0.5)
+model = build_model(lr=lr, dropout=dropout)
+accuracy = train_and_validate(model)
+return accuracy
+
+study = optuna.create_study(direction="maximize")
+study.optimize(objective, n_trials=30)
+
+​
+
+Possibilité d'augmenter les données par des rotations via :
+
+​
+
+1
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+aug = ImageDataGenerator(rotation_range=10)
+
+​
+
+Modalités d'évaluation
+L'utilisateur peut dessiner, prédire et corriger un chiffre.
+L'API retourne une prédiction et l'interface est réactive.
+Les données corrigées sont stockées avec leur métadonnées (date, correction, etc.).
+Prefect exécute régulièrement une analyse des échecs.
+Un réentraînement est exécuté si besoin avec Optuna.
+Livrables
+Interface Streamlit fonctionnelle et ergonomique
+API FastAPI avec route /predict et /correct
+Script de stockage et de nettoyage des données utilisateurs
+Flow Prefect avec analyse et déclencheur d'entraînement
+Script de réentraînement + intégration d'Optuna
+README avec explications, architecture, schéma de la boucle de feedback
+Critères de performance
+L'architecture est modulaire, propre et conteneurisée
+L'interface permet un vrai feedback utilisateur utilisable
+Les données sont bien collectées et utilisées pour l'entraînement
+Prefect déclenche automatiquement la réaction au besoin
+Le modèle s'améliore de façon mesurable sur les cas corrigés
