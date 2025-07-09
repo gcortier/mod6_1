@@ -100,6 +100,7 @@ pip freeze > requirements.txt
 # lancer les services à la main
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+streamlit run app.py --server.port=8501
 ```
 
 

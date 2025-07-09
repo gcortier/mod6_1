@@ -9,28 +9,29 @@ import io
 
 st.title("Calculateur de carré")
 
-number = st.number_input("Entrez un entier", step=1, format="%d")
 API_URL = os.getenv("API_URL", "http://localhost:8000")
-
+# API_URL = "http://localhost:8042"
+st.write(f"Valeur de API_URL : : {API_URL}")
 log_file = "logs/app.log"
 # Configuration de Loguru pour sauvegarder les logs
 logger.add(log_file, rotation="10 MB", retention="7 days", level="INFO")
 
 
-if st.button("Calculer le carré"):
-    try:
-        st.write(f"Envoi de la requête à l'API : {API_URL}/calcul avec le nombre {int(number)}")
-        response = requests.post(f"{API_URL}/calcul", json={"number": int(number)})
-        if response.status_code == 200:
-            result = response.json()["result"]
-            st.success(f"Le carré de {int(number)} est {result}")
-            logger.info(f"Calcul du carré de {int(number)}: {result}")
-        else:
-            st.error(f"Erreur: {response.text}")
-            logger.error(f"Erreur API: {response.text}")
-    except Exception as e:
-        st.error(f"Erreur: {e}")
-        logger.error(f"Exception: {e}")
+# number = st.number_input("Entrez un entier", step=1, format="%d")
+# if st.button("Calculer le carré"):
+#     try:
+#         st.write(f"Envoi de la requête à l'API : {API_URL}/calcul avec le nombre {int(number)}")
+#         response = requests.post(f"{API_URL}/calcul", json={"number": int(number)})
+#         if response.status_code == 200:
+#             result = response.json()["result"]
+#             st.success(f"Le carré de {int(number)} est {result}")
+#             logger.info(f"Calcul du carré de {int(number)}: {result}")
+#         else:
+#             st.error(f"Erreur: {response.text}")
+#             logger.error(f"Erreur API: {response.text}")
+#     except Exception as e:
+#         st.error(f"Erreur: {e}")
+#         logger.error(f"Exception: {e}")
 
 st.title("Data Sender")
 
@@ -69,21 +70,35 @@ if canvas_result.image_data is not None:
     img.save(img_bytes, format="PNG")
     img_bytes = img_bytes.getvalue()
     st.image(img, caption="Votre chiffre (28x28)", width=100)
+    if 'last_pred' not in st.session_state:
+        st.session_state['last_pred'] = None
+    if 'last_img_bytes' not in st.session_state:
+        st.session_state['last_img_bytes'] = None
+
     if st.button("Prédire"):
         files = {"file": ("canvas.png", img_bytes, "image/png")}
         response = requests.post(f"{API_URL}/predict", files=files)
+        logger.info(f"Envoi de l'image pour prédiction à l'API : {API_URL}/predict")
         if response.ok:
             pred = response.json()["prediction"]
             st.success(f"Prédiction du modèle : {pred}")
-            correction = st.selectbox("Corriger la prédiction si besoin :", list(range(10)), index=pred)
-            if st.button("Envoyer la correction"):
-                data = {"correction": correction}
-                files = {"file": ("canvas.png", img_bytes, "image/png")}
-                r = requests.post(f"{API_URL}/correct", data=data, files=files)
-                if r.ok:
-                    st.success("Correction enregistrée !")
-                else:
-                    st.error("Erreur lors de l'enregistrement.")
+            st.session_state['last_pred'] = pred
+            st.session_state['last_img_bytes'] = img_bytes
         else:
             st.error("Erreur lors de la prédiction.")
+            st.session_state['last_pred'] = None
+            st.session_state['last_img_bytes'] = None
+
+    # Afficher la correction si une prédiction a été faite
+    if st.session_state['last_pred'] is not None and st.session_state['last_img_bytes'] is not None:
+        correction = st.selectbox("Corriger la prédiction si besoin :", list(range(10)), index=st.session_state['last_pred'], key="correction_select")
+        if st.button("Envoyer la correction"):
+            data = {"correction": correction}
+            files = {"file": ("canvas.png", st.session_state['last_img_bytes'], "image/png")}
+            logger.info(f"Envoi de l'image pour correction à l'API : {data}")
+            r = requests.post(f"{API_URL}/correct", data=data, files=files)
+            if r.ok:
+                st.success("Correction enregistrée !")
+            else:
+                st.error("Erreur lors de l'enregistrement.")
 

@@ -1,6 +1,6 @@
 import os
 from loguru import logger
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Request, UploadFile, File
 from pydantic import BaseModel
 from datetime import datetime
 

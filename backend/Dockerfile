@@ -5,10 +5,15 @@ WORKDIR /app
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 # copy selective
-COPY main.py ./
-COPY api_base.py ./
+COPY data ./data
+COPY figures ./figures
+COPY models ./models
 COPY modules ./modules
+COPY settings ./settings
 COPY tests ./tests
+COPY api_base.py ./
+COPY api_mlflow.py ./
+COPY main.py ./
 # Copy tout le contenu du dossier courant dans le conteneur
 # COPY . .
 EXPOSE 8000

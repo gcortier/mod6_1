@@ -8,3 +8,7 @@ psutil
 prometheus-fastapi-instrumentator
 pillow
 numpy
+tensorflow
+matplotlib
+scikit-learn
+mlflow

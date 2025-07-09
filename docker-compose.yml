@@ -19,12 +19,13 @@ services:
     container_name: frontend
     ports:
       - "8501:${STREAMLIT_PORT}"
-    # env_file:
-    #   - .env
+    env_file:
+      - .env
     # volumes:
     #   - ./logs_mnistretrain:/logs  # Montage du volume pour stocker les logs
     environment:
       - API_URL=${API_URL:-http://backend:8000}
+      - MLFLOW_TRACKING_URI=${MLFLOW_TRACKING_URI:-http://mlflow:5000}
     depends_on:
       - backend
     networks:
@@ -80,6 +81,18 @@ services:
       - "9100:9100"
     networks:
       - app_network
+
+  mlflow:
+    build: ./mlflow
+    container_name: mlflow
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlflow/mlruns:/mlflow/mlruns
+      - ./mlflow/artifacts:/mlflow/artifacts
+    networks:
+      - app_network
+    restart: unless-stopped
 
 
 volumes:
