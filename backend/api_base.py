@@ -1,4 +1,5 @@
 import os
+import sys
 from loguru import logger
 from fastapi import FastAPI, HTTPException, Request, UploadFile, File
 from pydantic import BaseModel
@@ -18,6 +19,7 @@ def setup_loguru(logfile="logs/app.log"):
         level="INFO",          # Niveau de log minimum
         format="{time} {level} {message}"  # Format des logs
     )
+    logger.add(sys.stderr, level="INFO", format="{time} {level} {message}")
     return logger
 
 # Fonction de création de l'application FastAPI

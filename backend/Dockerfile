@@ -6,7 +6,7 @@ COPY requirements.txt ./
 RUN pip install -r requirements.txt
 # copy selective
 COPY data ./data
-COPY figures ./figures
+# COPY figures ./figures
 COPY models ./models
 COPY modules ./modules
 COPY settings ./settings

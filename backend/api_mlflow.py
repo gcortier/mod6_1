@@ -215,11 +215,14 @@ async def predict(file: UploadFile = File(...)):
         logger.error(f"Model URI {model_uri} not found in MLflow.")
         return None
     
+    if not run_id:
+        logger.error("Aucun run_id disponible pour la prédiction. Entraînez un modèle d'abord.")
+        raise HTTPException(status_code=404, detail="Aucun modèle courant trouvé. Veuillez entraîner un modèle avant de prédire.")
     
     # logger.info(f"Transmitting weights from model at {model_uri} to new model.")
     
    
-    model = MLFlow_load_model(model_uri, artifact_path)
+    model = MLFlow_load_model(run_id, artifact_path)
     logger.info(f"ModelMLFlow Loaded")
     image_bytes = await file.read()
     prediction = predict_digit(model, image_bytes, logger=logger)
@@ -234,9 +237,13 @@ async def train():
 
     run_id = prediction_model
         
-    for i in range(wanted_train_cycle):
-        logger.info(f"Starting training iteration {i} of {wanted_train_cycle}")
-        run_id = train_and_log_iterative(i, settings, run_id)
-        
-    # Mettre à jour le modèle de prédiction avec le dernier run_id
-    set_last_run_id(run_id)
+    try:
+        for i in range(wanted_train_cycle):
+            logger.info(f"Starting training iteration {i} of {wanted_train_cycle}")
+            run_id = train_and_log_iterative(i, settings, run_id)
+        # Mettre à jour le modèle de prédiction avec le dernier run_id
+        set_last_run_id(run_id)
+        return {"status": "success", "run_id": run_id}
+    except Exception as e:
+        logger.error(f"Erreur lors de l'entraînement : {e}")
+        raise HTTPException(status_code=500, detail=f"Erreur lors de l'entraînement : {e}")

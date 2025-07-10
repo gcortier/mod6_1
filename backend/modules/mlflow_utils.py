@@ -40,7 +40,24 @@ def MLFlow_train_model(options, model, X, y, X_test=None, y_test=None, epochs=50
 
 def MLFlow_load_model(runId, artifactPath="linear_regression_model"):
     model_uri = f"runs:/{runId}/{artifactPath}"
-    model = mlflow.sklearn.load_model(model_uri)
+
+    try:
+        import sklearn.base
+        if isinstance(model, sklearn.base.BaseEstimator):
+            model = mlflow.sklearn.load_model(model_uri)
+            logger.info("Model sklearn loaded with mlflow.sklearn")
+        else:
+            import tensorflow as tf
+            if isinstance(model, tf.keras.Model):
+                model = mlflow.keras.log_model(model_uri)
+                logger.info("Model keras loaded with mlflow.keras")
+            else:
+                logger.error(f"Type de modele non supported MLflow: {type(model)}")
+    except Exception as e:
+        logger.error(f"Erreur lors du log du modèle dans MLflow: {e}")
+
+
+    # model = mlflow.keras.load_model(model_uri)
     return model
 
 def MLFlow_make_prediction(model, X):
@@ -100,9 +117,21 @@ def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=Non
         mlflow.log_metric("loss", loss)
         mlflow.log_metric("accuracy", accuracy)
 
-        # Use 'name' instead of 'artifact_path' and add input_example
-        # mlflow.sklearn.log_model(model, name=artifact_path, input_example=X_test[:1])
-        mlflow.sklearn.log_model(model, artifact_path)
+        logger.info(f"Tentative de log du modèle dans MLflow avec artifact_path={artifact_path}")
+        try:
+            import sklearn.base
+            if isinstance(model, sklearn.base.BaseEstimator):
+                mlflow.sklearn.log_model(model, artifact_path)
+                logger.info("Modèle sklearn loggé avec mlflow.sklearn.log_model.")
+            else:
+                import tensorflow as tf
+                if isinstance(model, tf.keras.Model):
+                    mlflow.keras.log_model(model, artifact_path)
+                    logger.info("Modèle keras loggé avec mlflow.keras.log_model.")
+                else:
+                    logger.error(f"Type de modèle non supporté pour le log MLflow: {type(model)}")
+        except Exception as e:
+            logger.error(f"Erreur lors du log du modèle dans MLflow: {e}")
         logger.info(f"Run {run_idx + 1} completed, run_id={run.info.run_id}")
         return run.info.run_id
     
