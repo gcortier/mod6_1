@@ -26,24 +26,27 @@ def MLFlow_train_model(model, X, y, X_test=None, y_test=None, epochs=50, batch_s
 
 def MLFlow_load_model(runId, artifactPath="linear_regression_model"):
     model_uri = f"runs:/{runId}/{artifactPath}"
-
+    model = None
     try:
+        # On tente d'abord de charger un modèle Keras
+        import tensorflow as tf
+        try:
+            model = mlflow.keras.load_model(model_uri)
+            logger.info(f"Model keras loaded with mlflow.keras.load_model: {model_uri}")
+            return model
+        except Exception as keras_e:
+            logger.warning(f"Impossible de charger le modèle Keras: {keras_e}")
+        # Si échec, on tente sklearn
         import sklearn.base
-        if isinstance(model, sklearn.base.BaseEstimator):
+        try:
             model = mlflow.sklearn.load_model(model_uri)
-            logger.info("Model sklearn loaded with mlflow.sklearn")
-        else:
-            import tensorflow as tf
-            if isinstance(model, tf.keras.Model):
-                model = mlflow.keras.log_model(model_uri)
-                logger.info("Model keras loaded with mlflow.keras")
-            else:
-                logger.error(f"Type de modele non supported MLflow: {type(model)}")
+            logger.info(f"Model sklearn loaded with mlflow.sklearn.load_model: {model_uri}")
+            return model
+        except Exception as skl_e:
+            logger.warning(f"Impossible de charger le modèle sklearn: {skl_e}")
+        logger.error(f"Aucun modèle MLflow trouvé ou compatible à l'URI: {model_uri}")
     except Exception as e:
-        logger.error(f"Erreur lors du log du modèle dans MLflow: {e}")
-
-
-    # model = mlflow.keras.load_model(model_uri)
+        logger.error(f"Erreur lors du load du modèle dans MLflow: {e}")
     return model
 
 def MLFlow_make_prediction(model, X):
@@ -79,7 +82,6 @@ def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=Non
     
     ## TRAINING ET LOGGING DU MODÈLE
     
-
     model, hist = MLFlow_train_model(model, X_train, y_train, X_test=X_test, y_test=y_test, epochs=epochs, batch_size=batch_size, verbose=0)
 
 

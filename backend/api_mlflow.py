@@ -200,20 +200,23 @@ async def predict(file: UploadFile = File(...)):
     if not mlflow.get_artifact_uri(model_uri):
         logger.error(f"Model URI {model_uri} not found in MLflow.")
         return None
-    
+
     if not run_id:
         logger.error("Aucun run_id disponible pour la prédiction. Entraînez un modèle d'abord.")
         raise HTTPException(status_code=404, detail="Aucun modèle courant trouvé. Veuillez entraîner un modèle avant de prédire.")
-    
-    # logger.info(f"Transmitting weights from model at {model_uri} to new model.")
-    
-   
-    model = MLFlow_load_model(run_id, artifact_path)
-    logger.info(f"ModelMLFlow Loaded")
-    image_bytes = await file.read()
-    prediction = predict_digit(model, image_bytes, logger=logger)
-    return {"prediction": prediction}
-    # return JSONResponse({"prediction": prediction})
+
+    try:
+        model = MLFlow_load_model(run_id, artifact_path)
+        if model is None:
+            logger.error(f"Impossible de charger le modèle pour run_id {run_id} et artifact_path {artifact_path}.")
+            raise HTTPException(status_code=500, detail="Erreur lors du chargement du modèle.")
+        logger.info(f"ModelMLFlow Loaded")
+        image_bytes = await file.read()
+        prediction = predict_digit(model, image_bytes, logger=logger)
+        return {"prediction": prediction}
+    except Exception as e:
+        logger.error(f"Erreur lors du load du modèle dans MLflow: {e}")
+        raise HTTPException(status_code=500, detail=f"Erreur lors du load du modèle dans MLflow: {e}")
 
 @app.post("/train",)
 async def train():

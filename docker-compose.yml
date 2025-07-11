@@ -7,10 +7,10 @@ services:
     volumes:
       - ./backend/models:/app/models
       - ./backend/logs:/app/logs  # Montage du volume pour stocker les logs
+      - ./mlflow/mlruns:/mlflow/mlruns
+      - ./mlflow/artifacts:/mlflow/artifacts
     # env_file:
     #   - .env
-    # volumes:
-    #   - ./logs_mnistretrain:/logs  # Montage du volume pour stocker les logs
     environment:
       - API_PORT=${API_PORT}
       - MLFLOW_TRACKING_URI=${MLFLOW_TRACKING_URI:-http://mlflow:5000}
