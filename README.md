@@ -112,6 +112,7 @@ streamlit run app.py --server.port=8501
   - Ajout et visualisation du dashboard dans Grafana
     - Trouver un moyen d'automatiser les logs des appels aux routes : implementation 'prometheus-fastapi-instrumentator'
   - Ajout d'un dashboard pour visualiser les appels à l'API FastAPI
+  - Mise en place Grafana + cache doker
 
 ---
 

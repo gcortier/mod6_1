@@ -155,21 +155,7 @@ if __name__ == "__main__":
             run_id = train_and_log_iterative(i, settings, run_id)
         # Mettre à jour le modèle de prédiction avec le dernier run_id
         set_last_run_id(run_id)
-    # elif len(sys.argv) > 1 and sys.argv[1] == "clean_dataset":
-    #     # python alchemy_api.py clean_dataset
-    #     logger.info("Analyse des données en cours...")
-        
-    #     # Charger les paramètres de configuration
-    #     source_data = settings.get("source_data", "data-all-684bf775c031b265646213.csv")
-    #     training_data = settings.get("training_data", "df_data_all_cleaned.csv")
-    #                
-    #     csv_path = join('data', source_data)
-    #     csv_target = join('data', training_data)
-    #     clean_dataset(csv_path, csv_target)
-    # elif len(sys.argv) > 1 and sys.argv[1] == "backup_preprocessor":
-    #     # python alchemy_api.py backup_preprocessor
-    #     logger.info("backup_preprocessor en cours...")
-    #     backup_preprocessor(settings)
+
         
     else:
         print("Aucune action lancée. Pour entraîner, lancez : python alchemy_api.py train")

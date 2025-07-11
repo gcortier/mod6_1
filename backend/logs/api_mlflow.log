@@ -107,3 +107,6 @@
 2025-07-09T18:11:14.362898+0200 INFO MLFlow tracking URI: http://localhost:5000
 2025-07-09T18:13:30.367840+0200 INFO MLFlow tracking URI: http://localhost:5000
 2025-07-09T18:13:57.004801+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-11T10:42:14.949373+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T10:47:10.742065+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T11:19:56.987417+0000 INFO MLFlow tracking URI: http://mlflow:5000

@@ -18,25 +18,11 @@ logger = setup_loguru("logs/mlflow_utils.log")
 today_str = datetime.now().strftime("%Y%m%d_%H%M")
 
 
-def MLFlow_train_model(options, model, X, y, X_test=None, y_test=None, epochs=50, batch_size=32, verbose=0):
+def MLFlow_train_model(model, X, y, X_test=None, y_test=None, epochs=50, batch_size=32, verbose=0):
     # entrainnement du modèle
     model, hist = train_model(model, X, y, X_test, y_test, epochs, batch_size, verbose)
        
-    # Prédictions et matrice de confusion
-    preds = model.predict(X_test)
-    y_pred = preds.argmax(axis=1)
-    y_true = y_test.argmax(axis=1)
-
-    cm = confusion_matrix(y_true, y_pred)
-    # Options de sauvegarde model et cost picture
-    step_base_name = options.get("step_base_name", f"model_{today_str}_ml_{options.get('step', 'default')}")
-    if options.get("save_model", False):
-        joblib.dump(model, join('models', f'{step_base_name}.pkl'))
-        logger.info(f"Model saved as {step_base_name}.pkl")
-    if options.get("save_cost", False):
-        draw_loss(hist, cm, join('figures',f'{step_base_name}.jpg'))
-        
-    return model, hist, step_base_name
+    return model, hist
 
 def MLFlow_load_model(runId, artifactPath="linear_regression_model"):
     model_uri = f"runs:/{runId}/{artifactPath}"
@@ -92,16 +78,11 @@ def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=Non
             MLFlow_Transmit_weights(model, settings['transfert_weights']['run_id'], artifact_path)
     
     ## TRAINING ET LOGGING DU MODÈLE
-    step_base_name = f"model_{today_str}_{run_idx}_{model_id}"
-    model, hist, step_base_name = MLFlow_train_model({
-        "save_model": True, # should be False when tests are finished
-        "save_cost": True, # should be False when tests are finished
-        "step_base_name": step_base_name,
-        "step": run_idx
-    }, model, X_train, y_train, X_test=X_test, y_test=y_test, epochs=epochs, batch_size=batch_size, verbose=0)
     
-    # Prediction
-    # preds = MLFlow_make_prediction(model, X_test)
+
+    model, hist = MLFlow_train_model(model, X_train, y_train, X_test=X_test, y_test=y_test, epochs=epochs, batch_size=batch_size, verbose=0)
+
+
     
     # Evaluation
     loss, accuracy = model_evaluate(model, X_test, y_test)
@@ -109,6 +90,8 @@ def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=Non
     logger.info(f"Model performances: {loss}")
     
     # Log dans MLflow
+    if mlflow.active_run() is not None:
+        mlflow.end_run()
     with mlflow.start_run() as run:
         mlflow.log_param("description", run_desc)
         mlflow.log_param("data_version", settings.get("training_data", "df_data_all_cleaned.csv"))
@@ -116,6 +99,7 @@ def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=Non
         mlflow.log_param("previous_run_id", model_id if model_id else "None")
         mlflow.log_metric("loss", loss)
         mlflow.log_metric("accuracy", accuracy)
+        mlflow.log_metric("epochs", epochs)
 
         logger.info(f"Tentative de log du modèle dans MLflow avec artifact_path={artifact_path}")
         try:
@@ -133,8 +117,40 @@ def train_and_log_model(X_train, y_train, X_test, y_test, run_desc, model_id=Non
         except Exception as e:
             logger.error(f"Erreur lors du log du modèle dans MLflow: {e}")
         logger.info(f"Run {run_idx + 1} completed, run_id={run.info.run_id}")
+        
+        # Sauvegarde des informations d'entraînement dans un fichier
+        MLFlow_backup_train_infos(run_idx, run.info.run_id, hist, model, model_id, X_test, y_test)
+
         return run.info.run_id
+
+def MLFlow_backup_train_infos(run_idx, run_id, hist, model, model_id, X_test, y_test):
+    """
+    Sauvegarde les informations d'entraînement du modèle dans des fichiers.
+    """
+    # step_base_name = f"model_{today_str}_{run_idx}_{model_id}"
+    step_base_name = f"model_{today_str}_{run_idx}_{run_id}"
     
+    model_save_settings = {
+        "save_model": settings.get("save_model", True),  # should be False when tests are finished
+        "save_cost": settings.get("save_cost", True),    # should be False when tests are finished
+        "step_base_name": step_base_name,
+        "step": run_idx
+    }
+    
+    
+     # Prédictions et matrice de confusion
+    preds = model.predict(X_test)
+    y_pred = preds.argmax(axis=1)
+    y_true = y_test.argmax(axis=1)
+    
+    cm = confusion_matrix(y_true, y_pred)
+    # Options de sauvegarde model et cost picture
+    step_base_name = model_save_settings.get("step_base_name", f"model_{today_str}_ml_{model_save_settings.get('step', 'default')}")
+    if model_save_settings.get("save_model", True):
+        joblib.dump(model, join('models', f'{step_base_name}.pkl'))
+        logger.info(f"Model saved as {step_base_name}.pkl")
+    if model_save_settings.get("save_cost", True):
+        draw_loss(hist, cm, join('figures',f'{step_base_name}.jpg'))
     
     
 def MLFlow_Transmit_weights(model_new, run_id, artifact_path="linear_regression_model"):

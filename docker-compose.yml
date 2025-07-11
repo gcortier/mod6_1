@@ -4,6 +4,9 @@ services:
     container_name: backend
     ports:
       - "8000:${API_PORT}"
+    volumes:
+      - ./backend/models:/app/models
+      - ./backend/logs:/app/logs  # Montage du volume pour stocker les logs
     # env_file:
     #   - .env
     # volumes:
@@ -24,6 +27,8 @@ services:
       - .env
     # volumes:
     #   - ./logs_mnistretrain:/logs  # Montage du volume pour stocker les logs
+    volumes:
+      - ./frontend/logs:/app/logs  # Montage du volume pour stocker les logs
     environment:
       - API_URL=${API_URL:-http://backend:8000}
       # - MLFLOW_TRACKING_URI=${MLFLOW_TRACKING_URI:-http://mlflow:5000}
@@ -108,7 +113,7 @@ services:
     networks:
       - app_network
 
-  random-check-with-server:
+  prefect-backend:
     build: ./prefect_backend
     container_name: prefect-backend
     depends_on:

@@ -25,3 +25,10 @@
 2025-07-09T17:48:53.647721+0200 INFO Route '/current_model' called by 127.0.0.1
 2025-07-09T17:51:23.677231+0200 INFO Received file for prediction: canvas.png => Checking model URI runs:/09970cd24d474d2584ab7f3cb036b2f2/mnist_model
 2025-07-09T18:14:32.875674+0200 INFO Received file for prediction: canvas.png => Checking model URI runs:/ddf5161e77c94ee2b16c73228d28f96f/mnist_model
+2025-07-11T10:44:02.577211+0000 INFO Received data: Red
+2025-07-11T10:44:12.381635+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/f11a0404ae04469090da895b744c38cf/mnist_model
+2025-07-11T10:44:12.651893+0000 ERROR Erreur lors du log du modèle dans MLflow: cannot access local variable 'model' where it is not associated with a value
+2025-07-11T10:48:31.859536+0000 INFO Route '/current_model' called by 172.18.0.1
+2025-07-11T11:20:36.882403+0000 INFO Received data: Red
+2025-07-11T11:21:33.850884+0000 INFO Received data: Red
+2025-07-11T11:21:41.430066+0000 INFO Received data: Blue
