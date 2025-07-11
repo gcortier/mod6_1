@@ -5,3 +5,4 @@ __pycache__
 __trash
 mlflow/artifacts
 mlflow/mlruns
+mninst_full.csv

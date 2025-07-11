@@ -96,8 +96,32 @@ services:
     restart: unless-stopped
 
 
+  prefect-server:
+    image: prefecthq/prefect:3-latest
+    command: prefect server start --host 0.0.0.0
+    container_name: prefect-server
+    ports:
+      - "4200:4200"        # UI + API
+    volumes:
+      - prefect_data:/root/.prefect  # persistance SQLite
+    restart: unless-stopped
+    networks:
+      - app_network
+
+  random-check-with-server:
+    build: ./prefect_backend
+    container_name: prefect-backend
+    depends_on:
+      - prefect-server
+    environment:
+      - PREFECT_API_URL=${PREFECT_API_URL:-http://prefect-server:4200/api}
+      - PYTHONIOENCODING=utf-8
+    restart: unless-stopped
+
+
 volumes:
   uptime-kuma-data:
+  prefect_data:
 
 
 networks:
