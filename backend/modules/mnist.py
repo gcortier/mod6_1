@@ -14,10 +14,10 @@ def predict_digit(model, image_bytes, logger=None):
         logger = DummyLogger()
         
     
-    logger.info(f"predict_digit")
+    # logger.info(f"predict_digit")
     img = Image.open(io.BytesIO(image_bytes)).convert("L").resize((28, 28))
     arr = np.array(img).reshape(1, 28, 28, 1) / 255.0
-    logger.info(f"arr : {arr}")
+
     pred = model.predict(arr)
     
     logger.info(f"Prediction : {pred} - {np.argmax(pred)}")

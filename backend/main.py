@@ -29,6 +29,7 @@ def calcul(req: NumberRequest):
 
 from prometheus_client import Counter
 data_counter = Counter("data_value_total", "Compteur des valeurs reçues sur /data", ["value"])
+correction_counter = Counter("correction_value_total", "Compteur des valeurs reçues sur /correct", ["value"])
 
 
 @app.post("/data")
@@ -37,32 +38,22 @@ async def receive_color(data: str = Form(...)):
     data_counter.labels(value=data).inc()
     return {"message": f"data {data} received"}
 
-# @app.post("/predict")
-# async def predict(file: UploadFile = File(...)):
-#     logger.info(f"Received file for prediction: {file.filename}")
-    
-#     model_uri = f"runs:/{run_id}/{artifact_path}"
-#     if not mlflow.get_artifact_uri(model_uri):
-#         logger.error(f"Model URI {model_uri} not found in MLflow.")
-#         return None
-    
-    
-#     logger.info(f"Transmitting weights from model at {model_uri} to new model.")
-    
-    
-    
-#     model_old = MLFlow_load_model(model_uri, artifact_path)
-    
-#     image_bytes = await file.read()
-#     prediction = predict_digit(image_bytes)
-#     return JSONResponse({"prediction": prediction})
+
 
 @app.post("/correct")
 async def correct(file: UploadFile = File(...), correction: int = Form(...)):
     logger.info(f"Received file for correction: {file.filename} : {correction}")
-    image_bytes = await file.read()
-    save_correction(image_bytes, correction)
-    return JSONResponse({"status": "ok"})
+   
+   
+    try:
+        image_bytes = await file.read()
+        save_correction(image_bytes, correction, logger)
+        return JSONResponse({"status": "ok"})
+    except Exception as e:
+        logger.error(f"Erreur during correction save : {e}")
+        raise HTTPException(status_code=500, detail=f"Erreur lors de la sauvegarde de la correction : {e}")
+
+
 
 # Export automatisé des endpoints pour Prometheus
 Instrumentator().instrument(app).expose(app)
