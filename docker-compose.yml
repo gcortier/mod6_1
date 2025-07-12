@@ -125,9 +125,9 @@ services:
     environment:
       - PREFECT_API_URL=${PREFECT_API_URL:-http://prefect-server:4200/api}
       - PYTHONIOENCODING=utf-8
+    restart: unless-stopped
     networks:
       - app_network
-    restart: unless-stopped
 
 
 volumes:

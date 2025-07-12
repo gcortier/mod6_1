@@ -1382,3 +1382,1465 @@
 2025-07-11 15:15:01.932 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
 2025-07-11 15:15:01.932 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
 2025-07-11 15:15:01.932 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:20:35.626 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:23:37.462 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 08:26:07.079 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:33.300 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:39.676 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 4}
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:48.250 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:57:56.360 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:04.609 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:09.974 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 7}
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:17.676 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:21.886 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 6, 'correction': 2}
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:29.502 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:32.314 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:40.585 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:58:45.904 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 7}
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:02.784 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 13:59:06.534 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 3}
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:25.410 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:30.120 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 9}
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:36.080 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:39.717 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 5, 'correction': 3}
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:54.039 | INFO     | __main__:<module>:84 - Envoi de l'image pour prédiction à l'API : http://backend:8000/predict
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}

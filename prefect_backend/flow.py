@@ -2,31 +2,31 @@ import os
 from prefect import flow, task
 from prefect.logging import get_run_logger
 import pandas as pd
-import optuna
+# import optuna
 from datetime import datetime
 import requests
 
 
 os.environ.setdefault("PYTHONIOENCODING", "utf-8")
-# os.environ.setdefault("PREFECT_API_URL", "http://127.0.0.1:4200/api")
+os.environ.setdefault("PREFECT_API_URL", "http://127.0.0.1:4200/api")
 
-
-
-logger = get_run_logger()
 
 @task(retries=2, retry_delay_seconds=1)
 def retrain():
+    logger = get_run_logger()
     logger.info("Retrain triggered!")
     raise Exception("Retrain failed!")  # Pour tester les retries
 
 @task
 def print_ok():
-    
+    logger = get_run_logger()
     logger.info("ok")
 
 @task(retries=2, retry_delay_seconds=1)
 def analyze_corrections(corrections_path: str, seuil_erreur: int = 5):
 
+    logger = get_run_logger()
+    
     logger.info(f"Analyse des corrections dans {corrections_path}")
     df = pd.read_csv(corrections_path)
  
@@ -40,6 +40,8 @@ def analyze_corrections(corrections_path: str, seuil_erreur: int = 5):
 
 @task(retries=2, retry_delay_seconds=1)
 def trigger_backend_retrain(class_to_retrain, corrections_path, base_data_path):
+
+    logger = get_run_logger()
 
     if not class_to_retrain:
         logger.info("Aucune classe à réentraîner. Pas de réentraînement.")
@@ -74,5 +76,5 @@ def periodic_check():
 if __name__ == "__main__":
     periodic_check.serve(
         name="every-hour",
-        interval=30  # toutes les heures 3600
+        interval=360  # toutes les heures 3600
     )

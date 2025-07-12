@@ -6,3 +6,4 @@ __trash
 mlflow/artifacts
 mlflow/mlruns
 mnist_full.csv
+mlruns
