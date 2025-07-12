@@ -1,1 +1,4 @@
 prefect
+pandas
+requests
+optuna

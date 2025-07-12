@@ -41,13 +41,13 @@ async def receive_color(data: str = Form(...)):
 
 
 @app.post("/correct")
-async def correct(file: UploadFile = File(...), correction: int = Form(...)):
-    logger.info(f"Received file for correction: {file.filename} : {correction}")
+async def correct(file: UploadFile = File(...), pred: int = Form(...), correction: int = Form(...)):
+    logger.info(f"Received file for correction: {file.filename} : {pred} ==> {correction}")
    
    
     try:
         image_bytes = await file.read()
-        save_correction(image_bytes, correction, logger)
+        save_correction(image_bytes, pred, correction, logger)
         return JSONResponse({"status": "ok"})
     except Exception as e:
         logger.error(f"Erreur during correction save : {e}")

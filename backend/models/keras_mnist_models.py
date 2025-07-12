@@ -1,29 +1,32 @@
 import os
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras import layers
+from tensorflow.keras import layers, models, optimizers
 from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDisplay
 
 import matplotlib.pyplot as plt
 
-def create_nn_model(arg_lenth=None):
+def create_nn_model(lr=None, dropout=None):
     """
-    Fonction pour créer et compiler un modèle avec keras.
+    Crée un modèle CNN Keras MNIST.
+    Si lr et dropout sont fournis, ils sont utilisés (Optuna/hyperparam tuning), sinon valeurs par défaut.
     """
-    # Définition du modèle CNN avec Keras
-    model = keras.Sequential([
+    model = models.Sequential([
         layers.Conv2D(16, (3, 3), activation='relu', padding='same', input_shape=(28, 28, 1)),
         # Cette couche réduit la taille de l’image de moitié (de 28x28 à 14x14) en ne gardant que la valeur maximale dans chaque bloc 2x2.
         layers.MaxPooling2D((2, 2)),
         layers.Flatten(),
+        layers.Dropout(dropout if dropout is not None else 0.2),
         layers.Dense(64, activation='relu'),
         layers.Dense(10, activation='softmax')
     ])
-
-    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-    
+    if lr is not None:
+        opt = optimizers.Adam(learning_rate=lr)
+    else:
+        opt = 'adam'
+    model.compile(optimizer=opt, loss='categorical_crossentropy', metrics=['accuracy'])
     return model
 
 def train_model(model, X, y, X_val=None, y_val=None, epochs=5, batch_size=32, validation_split=0.2, verbose=0 ):
@@ -153,3 +156,84 @@ def print_data(loss, accuracy):
     print(f"Loss: {loss:.4f}, Accuracy: {accuracy:.4f}")
     print(f"{'='*60}")
 
+
+def train_and_validate(model, X, y, epochs=5, batch_size=32):
+    X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2, random_state=42)
+    hist = model.fit(X_train, y_train, validation_data=(X_val, y_val), epochs=epochs, batch_size=batch_size, verbose=0)
+    loss, accuracy = model.evaluate(X_val, y_val, verbose=0)
+    return accuracy
+
+def optuna_objective(trial, X, y):
+    lr = trial.suggest_float("lr", 1e-5, 1e-2, log=True)
+    dropout = trial.suggest_float("dropout", 0.1, 0.5)
+    model = create_nn_model(lr=lr, dropout=dropout)
+    accuracy = train_and_validate(model, X, y)
+    return accuracy
+
+def model_retrain(df_corr):
+    return True
+    #  # Charger les données (base + corrections)
+    #     df_base = pd.read_csv(payload.base_data_path)
+    #     df_corr = pd.read_csv(payload.corrections_path)
+    #     classes_to_retrain = payload.classes
+
+    #     # Filtrer les corrections pour ne garder que celles des classes à réentraîner
+    #     if classes_to_retrain:
+    #         df_corr = df_corr[df_corr['correction'].isin(classes_to_retrain)]
+    #         if df_corr.empty:
+    #             logger.info("Aucune correction à réentraîner pour les classes spécifiées.")
+    #             return JSONResponse({"status": "success", "message": "Aucune correction à réentraîner pour les classes spécifiées."}, status_code=200)
+        
+    #     # clean et augmente le dataset de corrections
+    #     df_img = df_corr['image_bytes']
+    #     df_img = df_corr.drop(['pred'], axis=1, errors='ignore')
+    #     #rename colomn correction => target
+    #     df_img = df_img.rename(columns={'correction': 'target'})
+    #     df_clean_correction = increase_correction(df_img, n_aug=1, rotation_range=15)
+        
+    #     df = pd.concat([df_base, df_clean_correction], ignore_index=True)
+
+    #     X = df.drop(['target'], axis=1, errors='ignore')
+    #     y = df['target']
+        
+    #     def objective(trial):
+    #         lr = trial.suggest_float("lr", 1e-5, 1e-2, log=True)
+    #         dropout = trial.suggest_float("dropout", 0.1, 0.5)
+    #         model = create_nn_model(lr=lr, dropout=dropout)
+    #         accuracy = train_and_validate(model, X, y)
+    #         return accuracy
+        
+        
+    #     import optuna
+    #     study = optuna.create_study(direction="maximize")
+    #     study.optimize(objective, n_trials=30)
+    #     # Après Optuna, entraîner le modèle final avec les meilleurs params
+    #     best_params = study.best_params
+        
+    #     model = create_nn_model(**best_params)
+    #     accuracy = train_and_validate(model, X, y)
+    #     # Log dans MLflow
+    #     import mlflow
+    #     from models.keras_mnist_models import model_preprocess
+    #     mlflow.set_experiment(artifact_path)
+    #     with mlflow.start_run() as run:
+    #         # Prétraitement pour MLflow (reshape, normalisation, one-hot)
+    #         X_proc, y_proc, _ = model_preprocess(df)
+    #         model = create_nn_model(**best_params)
+    #         model.fit(X_proc, y_proc, epochs=5, batch_size=32, verbose=0)
+    #         # Log du modèle
+    #         mlflow.keras.log_model(model, "model")
+    #         mlflow.log_params(best_params)
+    #         mlflow.log_metric("accuracy", accuracy)
+    #         run_id = run.info.run_id
+    #         set_last_run_id(run_id)
+    #         logger.info(f"Modèle loggué dans MLflow avec run_id={run_id}")
+            
+    #     # Mettre à jour le modèle de prédiction avec le dernier run_id
+    #     set_last_run_id(run_id)
+    #     logger.info(f"Réentraînement terminé avec succès. Meilleurs paramètres : {best_params}, précision : {accuracy}")
+
+    #     # nettoyer du fichier de réentrainement les classes réentrainées
+    #     if classes_to_retrain:
+    #         df_corr = df_corr[~df_corr['correction'].isin(classes_to_retrain)]
+    #         df_corr.to_csv(payload.corrections_path, index=False)

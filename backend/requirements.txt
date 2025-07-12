@@ -12,3 +12,4 @@ tensorflow
 matplotlib
 scikit-learn
 mlflow
+optuna

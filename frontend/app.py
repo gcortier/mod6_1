@@ -62,6 +62,7 @@ canvas_result = st_canvas(
 )
 
 if canvas_result.image_data is not None:
+    # Préparation de l'image
     img = Image.fromarray((canvas_result.image_data).astype("uint8"), "RGBA")
     img = img.convert("L")
     img = img.resize((28, 28))
@@ -69,6 +70,8 @@ if canvas_result.image_data is not None:
     img_bytes = io.BytesIO()
     img.save(img_bytes, format="PNG")
     img_bytes = img_bytes.getvalue()
+    
+    # Affichage de l'image
     st.image(img, caption="Votre chiffre (28x28)", width=100)
     if 'last_pred' not in st.session_state:
         st.session_state['last_pred'] = None
@@ -93,7 +96,7 @@ if canvas_result.image_data is not None:
     if st.session_state['last_pred'] is not None and st.session_state['last_img_bytes'] is not None:
         correction = st.selectbox("Corriger la prédiction si besoin :", list(range(10)), index=st.session_state['last_pred'], key="correction_select")
         if st.button("Envoyer la correction"):
-            data = {"correction": correction}
+            data = {"pred": st.session_state['last_pred'], "correction": correction}
             files = {"file": ("canvas.png", st.session_state['last_img_bytes'], "image/png")}
             logger.info(f"Envoi de l'image pour correction à l'API : {data}")
             r = requests.post(f"{API_URL}/correct", data=data, files=files)

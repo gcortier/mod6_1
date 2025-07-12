@@ -3,8 +3,7 @@ import mlflow
 import json
 
 from sklearn.model_selection import train_test_split
-# from modules.preprocess import preprocessing_v2
-from models.keras_mnist_models import model_predict, model_preprocess
+from models.keras_mnist_models import model_predict, model_preprocess, create_nn_model, optuna_objective, train_and_validate
 import pandas as pd
 import joblib
 from os.path import join as join
@@ -17,9 +16,12 @@ import pandas as pd
 from os.path import join as join
 
 from fastapi.responses import JSONResponse
+from fastapi import Body
+
+import optuna
 
 from modules.mlflow_utils import MLFlow_load_model
-from modules.mnist import predict_digit
+from modules.mnist import predict_digit, increase_correction
 
 from settings.mlflow_settings import settings, artifact_path, wanted_train_cycle
 
@@ -236,3 +238,111 @@ async def train():
     except Exception as e:
         logger.error(f"Erreur lors de l'entraînement : {e}")
         raise HTTPException(status_code=500, detail=f"Erreur lors de l'entraînement : {e}")
+
+class RetrainPayload(BaseModel):
+    classes: list
+    corrections_path: str
+    base_data_path: str
+
+
+
+#
+# {
+#   "classes": [
+#     3
+#   ],
+#   "corrections_path": "./data/user_corrections.csv",
+#   "base_data_path": "./data/mnist_full.csv"
+# }
+
+@app.post("/retrain")
+async def retrain_endpoint(payload: RetrainPayload = Body(...)):
+    """
+    Endpoint pour déclencher un réentraînement avec Optuna à partir de Prefect.
+    """
+    path_to_user_traited = "./data/mnist_trained.csv"
+    # corrections_path = os.getenv("CORRECTIONS_PATH", "data/user_corrections.csv")
+    # base_data_path = os.getenv("BASE_DATA_PATH", "data/mnist_full.csv")
+    try:
+        # Charger les données (base + corrections)
+        df_base = pd.read_csv(payload.base_data_path)
+        df_corr = pd.read_csv(payload.corrections_path)
+        df_traited = pd.read_csv(path_to_user_traited, index_col=0)
+        classes_to_retrain = payload.classes
+
+        # Filtrer les corrections pour ne garder que celles des classes à réentraîner
+        if classes_to_retrain:
+            df_corr = df_corr[df_corr['correction'].isin(classes_to_retrain)]
+            if df_corr.empty:
+                logger.info("Aucune correction à réentraîner pour les classes spécifiées.")
+                return JSONResponse({"status": "success", "message": "Aucune correction à réentraîner pour les classes spécifiées."}, status_code=200)
+        
+        # clean et augmente le dataset de corrections
+        df_img = df_corr['image_bytes']
+        df_img = df_corr.drop(['pred'], axis=1, errors='ignore')
+        #rename colomn correction => target
+        df_img = df_img.rename(columns={'correction': 'target'})
+        df_clean_correction = increase_correction(df_img, n_aug=1, rotation_range=15)
+
+        # Harmoniser les colonnes (évite les doublons et problèmes de shape)
+        # pixel_columns = [col for col in df_base.columns if col != "target"]
+        df_clean_correction = df_clean_correction[df_base.columns]
+        
+        df = pd.concat([df_base, df_clean_correction], ignore_index=True)
+
+        # Reshape X pour le modèle Keras (n, 28, 28, 1) normalisation + encoding y
+        X, y, _ = model_preprocess(df)
+        # X = df.drop(['target'], axis=1, errors='ignore').values.astype("float32") / 255.0
+        # X = X.reshape(-1, 28, 28, 1)
+        # y = df['target']
+        
+        def objective(trial):
+            lr = trial.suggest_float("lr", 1e-5, 1e-2, log=True)
+            dropout = trial.suggest_float("dropout", 0.1, 0.5)
+            model = create_nn_model(lr=lr, dropout=dropout)
+            accuracy = train_and_validate(model, X, y)
+            return accuracy
+        
+        
+        # optimisation avec Optuna
+        study = optuna.create_study(direction="maximize")
+        study.optimize(objective, n_trials=5)
+        # Après Optuna, entraîner le modèle final avec les meilleurs params
+        best_params = study.best_params
+        
+        # model = create_nn_model(**best_params)
+        # Log dans MLflow
+        # import mlflow
+        # from models.keras_mnist_models import model_preprocess, create_nn_model
+        mlflow.set_experiment(artifact_path)
+        with mlflow.start_run() as run:
+            # Prétraitement pour MLflow (reshape, normalisation, one-hot)
+            X_proc, y_proc, _ = model_preprocess(df)
+            model = create_nn_model(**best_params)
+            accuracy = train_and_validate(model, X, y)
+            model.fit(X_proc, y_proc, epochs=5, batch_size=32, verbose=0)
+            # Log du modèle
+            mlflow.keras.log_model(model, "model")
+            mlflow.log_params(best_params)
+            mlflow.log_metric("accuracy", accuracy)
+            run_id = run.info.run_id
+            set_last_run_id(run_id)
+            logger.info(f"Modèle loggué dans MLflow avec run_id={run_id}")
+            
+        # Mettre à jour le modèle de prédiction avec le dernier run_id
+        set_last_run_id(run_id)
+        logger.info(f"Réentraînement terminé avec succès. Meilleurs paramètres : {best_params}, précision : {accuracy}")
+
+        # nettoyer du fichier de réentrainement les classes réentrainées
+        if classes_to_retrain:
+            # df_traited = df_corr[df_corr['correction'].isin(classes_to_retrain)]
+            df_corr = df_corr[~df_corr['correction'].isin(classes_to_retrain)]
+            df_corr.to_csv(payload.corrections_path, index=False)
+
+        return JSONResponse({"status": "success", "best_params": best_params, "accuracy": accuracy, "run_id": run_id})
+    
+   
+
+    except Exception as e:
+        logger.error(f"Erreur lors du réentraînement via /retrain : {e}")
+        return JSONResponse({"status": "error", "detail": str(e)}, status_code=500)
