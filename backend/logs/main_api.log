@@ -306,3 +306,81 @@ Arguments received by Sequential.call():
   2.3933975e-02 7.3867543e-03 1.5010208e-05 4.4566050e-08 3.6256658e-06]] - 2
 2025-07-12T14:19:58.400993+0000 INFO Received file for correction: canvas.png : 2 ==> 8
 2025-07-12T14:19:58.401341+0000 INFO save_correction : 8
+2025-07-12T14:33:29.708389+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:33:30.706581+0000 INFO Model keras loaded with mlflow.keras.load_model: runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:33:30.707007+0000 INFO ModelMLFlow Loaded
+2025-07-12T14:33:30.794520+0000 INFO Prediction : [[2.0007416e-09 4.9202475e-03 5.1928961e-01 5.8595640e-07 1.1530388e-09
+  3.4734160e-01 1.2738933e-01 1.0557849e-03 2.5622683e-06 2.6937866e-07]] - 2
+2025-07-12T14:33:37.595924+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:33:38.592393+0000 INFO Model keras loaded with mlflow.keras.load_model: runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:33:38.592789+0000 INFO ModelMLFlow Loaded
+2025-07-12T14:33:38.674551+0000 INFO Prediction : [[5.6289511e-11 1.5042079e-06 2.6988814e-04 3.8977192e-05 1.5691237e-13
+  9.9549794e-01 4.1904892e-03 4.3238180e-07 6.3183558e-07 2.2777261e-08]] - 5
+2025-07-12T14:33:42.161896+0000 INFO Received file for correction: canvas.png : 5 ==> 3
+2025-07-12T14:33:42.162521+0000 INFO save_correction : 3
+2025-07-12T14:33:49.212092+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:33:50.206660+0000 INFO Model keras loaded with mlflow.keras.load_model: runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:33:50.207097+0000 INFO ModelMLFlow Loaded
+2025-07-12T14:33:50.295843+0000 INFO Prediction : [[8.6169717e-12 1.5934814e-04 3.3714452e-01 1.6947298e-03 1.0860829e-13
+  6.4881617e-01 1.2155909e-02 2.9305073e-05 3.5096426e-11 2.4369998e-08]] - 5
+2025-07-12T14:33:54.894107+0000 INFO Received file for correction: canvas.png : 5 ==> 3
+2025-07-12T14:33:54.894452+0000 INFO save_correction : 3
+2025-07-12T14:34:04.743637+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:34:05.753594+0000 INFO Model keras loaded with mlflow.keras.load_model: runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:34:05.754082+0000 INFO ModelMLFlow Loaded
+2025-07-12T14:34:05.840409+0000 INFO Prediction : [[1.5936001e-08 5.4165618e-03 1.6185578e-02 9.6218997e-08 2.2710228e-12
+  4.1534606e-02 9.2791277e-01 8.9495489e-03 8.8150682e-07 3.0715672e-09]] - 6
+2025-07-12T14:34:09.215736+0000 INFO Received file for correction: canvas.png : 6 ==> 7
+2025-07-12T14:34:09.216165+0000 INFO save_correction : 7
+2025-07-12T14:34:16.470132+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:34:17.454695+0000 INFO Model keras loaded with mlflow.keras.load_model: runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:34:17.455184+0000 INFO ModelMLFlow Loaded
+2025-07-12T14:34:17.545187+0000 INFO Prediction : [[9.9070041e-10 2.4880582e-04 9.0731896e-04 2.1953987e-07 1.6463918e-12
+  8.9067447e-01 1.0814674e-01 2.1737984e-05 6.9393241e-07 7.3488827e-08]] - 5
+2025-07-12T14:34:20.350325+0000 INFO Received file for correction: canvas.png : 5 ==> 3
+2025-07-12T14:34:20.350744+0000 INFO save_correction : 3
+2025-07-12T14:34:27.311289+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:34:28.292284+0000 INFO Model keras loaded with mlflow.keras.load_model: runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:34:28.292704+0000 INFO ModelMLFlow Loaded
+2025-07-12T14:34:28.374453+0000 INFO Prediction : [[2.5036120e-10 7.5574462e-07 2.5182255e-03 1.7906721e-05 4.6678567e-16
+  1.2084250e-01 8.7657309e-01 1.7659012e-06 4.5811485e-05 2.0053434e-12]] - 6
+2025-07-12T14:34:30.915536+0000 INFO Received file for correction: canvas.png : 6 ==> 3
+2025-07-12T14:34:30.916570+0000 INFO save_correction : 3
+2025-07-12T14:34:39.019385+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:34:40.076929+0000 INFO Model keras loaded with mlflow.keras.load_model: runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:34:40.077369+0000 INFO ModelMLFlow Loaded
+2025-07-12T14:34:40.171932+0000 INFO Prediction : [[4.0424322e-08 9.0281144e-03 7.1796185e-01 2.3688526e-06 1.5237329e-12
+  2.4059748e-02 2.0333508e-01 4.5604255e-02 2.6098214e-06 6.0181824e-06]] - 2
+2025-07-12T14:34:43.566179+0000 INFO Received file for correction: canvas.png : 2 ==> 7
+2025-07-12T14:34:43.566645+0000 INFO save_correction : 7
+2025-07-12T14:34:52.287088+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:34:53.352330+0000 INFO Model keras loaded with mlflow.keras.load_model: runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T14:34:53.352735+0000 INFO ModelMLFlow Loaded
+2025-07-12T14:34:53.432516+0000 INFO Prediction : [[2.5141425e-10 3.3760087e-05 1.8340194e-03 2.4591802e-07 1.1969452e-14
+  8.3033377e-01 1.6777019e-01 1.6084969e-05 1.1980471e-05 5.0608402e-09]] - 5
+2025-07-12T14:35:00.115073+0000 INFO Received file for correction: canvas.png : 5 ==> 3
+2025-07-12T14:35:00.115504+0000 INFO save_correction : 3
+2025-07-12T15:43:31.415796+0000 ERROR Erreur lors du réentraînement via /retrain : Run with UUID 09db2972eb824f309dc8f50a9b7ec9e2 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+2025-07-12T15:49:02.825560+0000 ERROR Erreur lors du réentraînement via /retrain : Run with UUID 09db2972eb824f309dc8f50a9b7ec9e2 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+2025-07-12T15:54:41.464494+0000 ERROR Erreur lors du réentraînement via /retrain : Run with UUID 09db2972eb824f309dc8f50a9b7ec9e2 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+2025-07-12T16:00:42.031124+0000 ERROR Erreur lors du réentraînement via /retrain : Run with UUID 09db2972eb824f309dc8f50a9b7ec9e2 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+2025-07-12T16:00:42.053737+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T16:00:43.977538+0000 INFO Model keras loaded with mlflow.keras.load_model: runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T16:00:43.978043+0000 INFO ModelMLFlow Loaded
+2025-07-12T16:00:44.099434+0000 INFO Prediction : [[1.3569076e-10 1.7143534e-04 9.9960464e-01 6.6396797e-06 3.6255145e-14
+  1.4706483e-04 2.0771023e-07 6.9952352e-05 1.9799578e-09 1.9703409e-08]] - 2
+2025-07-12T16:00:44.103756+0000 INFO Received file for prediction: canvas.png => Checking model URI runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T16:00:45.173325+0000 INFO Model keras loaded with mlflow.keras.load_model: runs:/4397caf7f05845fdb6ad9bc110405e68/mnist_model
+2025-07-12T16:00:45.173829+0000 INFO ModelMLFlow Loaded
+2025-07-12T16:00:45.294834+0000 INFO Prediction : [[1.3569076e-10 1.7143534e-04 9.9960464e-01 6.6396797e-06 3.6255145e-14
+  1.4706483e-04 2.0771023e-07 6.9952352e-05 1.9799578e-09 1.9703409e-08]] - 2
+2025-07-12T16:06:48.431707+0000 ERROR Erreur lors du réentraînement via /retrain : Run with UUID 09db2972eb824f309dc8f50a9b7ec9e2 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+2025-07-12T16:06:48.466895+0000 INFO Received file for correction: canvas.png : 2 ==> 3
+2025-07-12T16:06:48.468663+0000 INFO save_correction : 3
+2025-07-13T07:35:35.288815+0000 INFO Nouveau modèle de prédiction mis à jour avec run_id: 13d905e3af5044589ec572a9d67b5fba (sauvegardé dans models/current_model.json)
+2025-07-13T07:35:35.289257+0000 INFO Modèle loggué dans MLflow avec run_id=13d905e3af5044589ec572a9d67b5fba
+2025-07-13T07:35:35.390973+0000 INFO Nouveau modèle de prédiction mis à jour avec run_id: 13d905e3af5044589ec572a9d67b5fba (sauvegardé dans models/current_model.json)
+2025-07-13T07:35:35.391327+0000 INFO Réentraînement terminé avec succès. Meilleurs paramètres : {'lr': 0.009530386945003372, 'dropout': 0.4445210510319155}, précision : 0.979756772518158
+2025-07-14T17:54:48.427928+0000 INFO Route '/' called by 172.18.0.1
+2025-07-14T17:55:18.184503+0000 INFO Route '/' called by 172.18.0.1
+2025-07-14T17:56:15.927791+0000 INFO Route '/' called by 172.18.0.1

@@ -314,6 +314,9 @@ async def retrain_endpoint(payload: RetrainPayload = Body(...)):
         # Log dans MLflow
         # import mlflow
         # from models.keras_mnist_models import model_preprocess, create_nn_model
+        if mlflow.active_run() is not None:
+            mlflow.end_run()
+    
         mlflow.set_experiment(artifact_path)
         with mlflow.start_run() as run:
             # Prétraitement pour MLflow (reshape, normalisation, one-hot)
