@@ -53,6 +53,10 @@ python -m venv .venv
 ```bash
 .venv\Scripts\Activate.ps1
 ```
+- Installer requierements :
+```bash
+pip install -r requirements.txt
+```
 
 ### 1. Lancer avec Docker Compose
 ```bash
@@ -67,20 +71,6 @@ cd backend
 pytest tests/
 ```
 
-## Modules à installer (hors Docker)
-
-- **Backend** :
-  - fastapi
-  - uvicorn
-  - loguru
-  - pydantic
-  - pytest
-
-- **Frontend** :
-  - streamlit
-  - loguru
-  - requests
-
 ### Installation rapide (hors Docker)
 ```bash
 pip install fastapi uvicorn loguru pydantic pytest streamlit requests prometheus-client python-multipart psutil
@@ -93,10 +83,19 @@ pip install -r requirements.txt
 pip freeze > requirements.txt
 ```
 
+# lancer les services à la main
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+streamlit run app.py --server.port=8501
+```
 
-## CI/CD
+
+## CI/CD sur branches main et dev
 - Les tests sont lancés automatiquement via GitHub Actions (`.github/workflows/test.yml`).
-- La dernière version de chaque image Docker est poussée sur Docker Hub à chaque push.
+- La dernière version de chaque image Docker est poussée sur Docker Hub à chaque push. (`.github/workflows/docker-publish.yml`)
+
+
+
 
 
 
@@ -113,6 +112,7 @@ pip freeze > requirements.txt
   - Ajout et visualisation du dashboard dans Grafana
     - Trouver un moyen d'automatiser les logs des appels aux routes : implementation 'prometheus-fastapi-instrumentator'
   - Ajout d'un dashboard pour visualiser les appels à l'API FastAPI
+  - Mise en place Grafana + cache doker
 
 ---
 

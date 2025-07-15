@@ -1,0 +1,154 @@
+2025-07-09T13:10:12.165942+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:10:12.473092+0200 INFO Starting training iteration 0 of 1
+2025-07-09T13:37:10.068121+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:37:10.123573+0200 INFO Starting training iteration 0 of 1
+2025-07-09T13:37:10.143614+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:42:26.542321+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:42:26.606498+0200 INFO Starting training iteration 0 of 1
+2025-07-09T13:42:26.617495+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:43:56.566781+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:43:56.635036+0200 INFO Starting training iteration 0 of 1
+2025-07-09T13:43:56.641318+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:44:00.510806+0200 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-09T13:44:00.511807+0200 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-09T13:44:01.593183+0200 INFO No previous model_id, Trainning column : 28
+2025-07-09T13:56:40.298248+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:56:40.361796+0200 INFO Starting training iteration 0 of 1
+2025-07-09T13:56:40.368454+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:56:44.117496+0200 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-09T13:56:44.118491+0200 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-09T13:56:45.118515+0200 INFO No previous model_id, Trainning column : 28
+2025-07-09T13:59:09.956269+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:59:10.013568+0200 INFO Starting training iteration 0 of 1
+2025-07-09T13:59:10.019569+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T13:59:13.756803+0200 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-09T13:59:13.756803+0200 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-09T13:59:14.782843+0200 INFO No previous model_id, Trainning column : 28
+2025-07-09T13:59:53.540933+0200 INFO Model saved as model_20250709_1359_0_None.pkl
+2025-07-09T14:02:14.540620+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T14:02:14.601146+0200 INFO Starting training iteration 0 of 1
+2025-07-09T14:02:14.607153+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T14:02:18.675666+0200 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-09T14:02:18.676678+0200 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-09T14:02:19.633999+0200 INFO No previous model_id, Trainning column : 28
+2025-07-09T14:02:52.478075+0200 INFO Model saved as model_20250709_1402_0_None.pkl
+2025-07-09T16:04:03.068210+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T16:04:03.130773+0200 INFO Starting training iteration 0 of 1
+2025-07-09T16:04:03.144400+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T16:04:07.082393+0200 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-09T16:04:07.082393+0200 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-09T16:04:08.047266+0200 INFO No previous model_id, Trainning column : 28
+2025-07-09T16:04:39.334507+0200 INFO Model saved as model_20250709_1604_0_None.pkl
+2025-07-09T16:04:41.585698+0200 INFO Model performances: 0.056595489382743835
+2025-07-09T16:04:54.617267+0200 INFO Run 1 completed, run_id=8cf23b984df2400ca0f181cfa66479cd
+2025-07-09T16:04:54.787755+0200 INFO Nouveau modèle de prédiction mis à jour avec run_id: 8cf23b984df2400ca0f181cfa66479cd (sauvegardé dans models/current_model.json)
+2025-07-09T16:07:28.002246+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T16:07:28.056626+0200 INFO Starting training iteration 0 of 1
+2025-07-09T16:07:28.063144+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T16:07:31.947526+0200 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-09T16:07:31.948526+0200 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-09T16:07:32.931080+0200 INFO Loading model from previous model_id: 8cf23b984df2400ca0f181cfa66479cd
+2025-07-09T16:08:06.365128+0200 INFO Model saved as model_20250709_1607_0_8cf23b984df2400ca0f181cfa66479cd.pkl
+2025-07-09T16:08:08.743957+0200 INFO Model performances: 0.05954965204000473
+2025-07-09T16:08:19.777001+0200 INFO Run 1 completed, run_id=095777c2e5d1447da325e8e21e2ba793
+2025-07-09T16:08:19.941870+0200 INFO Nouveau modèle de prédiction mis à jour avec run_id: 095777c2e5d1447da325e8e21e2ba793 (sauvegardé dans models/current_model.json)
+2025-07-09T16:32:02.513264+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T16:32:02.571605+0200 INFO Starting training iteration 0 of 1
+2025-07-09T16:32:02.586225+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T16:32:06.412252+0200 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-09T16:32:06.412252+0200 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-09T16:32:07.401386+0200 INFO No previous model_id, Trainning column : 28
+2025-07-09T16:32:39.798584+0200 INFO Model saved as model_20250709_1632_0_None.pkl
+2025-07-09T17:04:39.249474+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:04:39.308808+0200 INFO Starting training iteration 0 of 1
+2025-07-09T17:04:39.321438+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:05:09.092463+0200 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-09T17:05:09.092463+0200 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-09T17:05:10.073265+0200 INFO No previous model_id, Trainning column : 28
+2025-07-09T17:05:41.803019+0200 INFO Model saved as model_20250709_1704_0_None.pkl
+2025-07-09T17:05:43.150593+0200 INFO Model performances: 0.05391492694616318
+2025-07-09T17:05:55.120845+0200 INFO Run 1 completed, run_id=09970cd24d474d2584ab7f3cb036b2f2
+2025-07-09T17:05:55.299323+0200 INFO Nouveau modèle de prédiction mis à jour avec run_id: 09970cd24d474d2584ab7f3cb036b2f2 (sauvegardé dans models/current_model.json)
+2025-07-09T17:36:38.129118+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:36:44.538638+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:37:15.336125+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:37:23.454118+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:37:58.362560+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:38:36.118079+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:39:12.470345+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:39:19.387305+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:44:09.280925+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:45:38.665693+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:45:46.017835+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:48:23.623204+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:54:28.797677+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:54:36.373819+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:54:43.198413+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T17:54:49.627394+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:06:58.359101+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:07:07.257231+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:07:17.569813+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:07:25.229327+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:08:41.106934+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:08:41.155599+0200 INFO Starting training iteration 0 of 1
+2025-07-09T18:08:44.974621+0200 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-09T18:08:44.974621+0200 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-09T18:08:45.969973+0200 INFO No previous model_id, Trainning column : 28
+2025-07-09T18:09:18.334817+0200 INFO Model saved as model_20250709_1808_0_None.pkl
+2025-07-09T18:09:19.730618+0200 INFO Model performances: 0.05821188539266586
+2025-07-09T18:09:31.403646+0200 INFO Run 1 completed, run_id=ddf5161e77c94ee2b16c73228d28f96f
+2025-07-09T18:09:31.588273+0200 INFO Nouveau modèle de prédiction mis à jour avec run_id: ddf5161e77c94ee2b16c73228d28f96f (sauvegardé dans models/current_model.json)
+2025-07-09T18:09:39.135935+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:09:46.164042+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:09:53.085729+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:09:59.628017+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:10:16.483991+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:11:08.074644+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:11:14.362898+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:13:30.367840+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-09T18:13:57.004801+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-11T10:42:14.949373+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T10:47:10.742065+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T11:19:56.987417+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T12:10:10.951504+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T12:26:10.960757+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T12:35:55.081836+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T12:46:36.117889+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T12:57:23.166738+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T13:07:16.097486+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T13:08:32.473763+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T13:10:22.006662+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T13:12:33.472986+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T13:18:00.700744+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T14:03:16.705955+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T14:03:52.514989+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T14:03:56.691025+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T14:04:01.772326+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T14:04:36.835906+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T14:04:41.169899+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T14:04:57.578576+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T14:33:55.129297+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T15:04:53.262265+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T15:09:12.986939+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T15:14:29.687284+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T15:20:07.356627+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T15:29:55.158385+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-11T15:30:44.250689+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T06:28:20.485726+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T06:28:25.399174+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T06:29:49.226285+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T06:30:39.405797+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T06:30:58.983606+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T06:31:03.471417+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T06:32:03.030159+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T06:41:39.746309+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T07:26:24.951865+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T07:26:31.813892+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T07:27:00.179009+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T07:27:33.156228+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T07:27:41.750204+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T07:27:59.672320+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T07:41:34.479381+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T07:41:39.377629+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T07:41:43.874559+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-12T08:01:43.668352+0000 INFO MLFlow tracking URI: http://mlflow:5000

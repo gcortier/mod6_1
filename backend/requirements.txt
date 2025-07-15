@@ -6,3 +6,10 @@ python-multipart
 loguru
 psutil
 prometheus-fastapi-instrumentator
+pillow
+numpy
+tensorflow
+matplotlib
+scikit-learn
+mlflow
+optuna

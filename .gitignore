@@ -2,3 +2,8 @@
 __pycache__
 .pytest_cache
 .env
+__trash
+mlflow/artifacts
+mlflow/mlruns
+mnist_full.csv
+mlruns

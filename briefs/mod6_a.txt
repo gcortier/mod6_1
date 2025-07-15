@@ -109,3 +109,12 @@ L'interface permet un vrai feedback utilisateur utilisable
 Les données sont bien collectées et utilisées pour l'entraînement
 Prefect déclenche automatiquement la réaction au besoin
 Le modèle s'améliore de façon mesurable sur les cas corrigés
+
+
+{
+  "classes": [
+    3
+  ],
+  "corrections_path": "./data/user_corrections.csv",
+  "base_data_path": "./data/mnist_full.csv"
+}

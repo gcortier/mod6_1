@@ -1,17 +1,20 @@
 import sys
 import os
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 
-from fastapi import FastAPI, Form
+from fastapi import FastAPI, Form, UploadFile, File
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from loguru import logger
 from modules.calcul import calcul_carre
+from modules.mnist import predict_digit, save_correction
 from prometheus_fastapi_instrumentator import Instrumentator
 
 
 ## Base initialisation for Loguru and FastAPI
-from api_base import setup_loguru, app, Request, HTTPException
+from api_mlflow import setup_loguru, app, Request, HTTPException
 logger = setup_loguru("logs/main_api.log")
 
 class NumberRequest(BaseModel):
@@ -26,6 +29,7 @@ def calcul(req: NumberRequest):
 
 from prometheus_client import Counter
 data_counter = Counter("data_value_total", "Compteur des valeurs reçues sur /data", ["value"])
+correction_counter = Counter("correction_value_total", "Compteur des valeurs reçues sur /correct", ["value"])
 
 
 @app.post("/data")
@@ -33,6 +37,23 @@ async def receive_color(data: str = Form(...)):
     logger.info(f"Received data: {data}")
     data_counter.labels(value=data).inc()
     return {"message": f"data {data} received"}
+
+
+
+@app.post("/correct")
+async def correct(file: UploadFile = File(...), pred: int = Form(...), correction: int = Form(...)):
+    logger.info(f"Received file for correction: {file.filename} : {pred} ==> {correction}")
+   
+   
+    try:
+        image_bytes = await file.read()
+        save_correction(image_bytes, pred, correction, logger)
+        return JSONResponse({"status": "ok"})
+    except Exception as e:
+        logger.error(f"Erreur during correction save : {e}")
+        raise HTTPException(status_code=500, detail=f"Erreur lors de la sauvegarde de la correction : {e}")
+
+
 
 # Export automatisé des endpoints pour Prometheus
 Instrumentator().instrument(app).expose(app)
