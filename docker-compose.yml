@@ -33,7 +33,6 @@ services:
       - ./frontend/logs:/app/logs  # Montage du volume pour stocker les logs
     environment:
       - API_URL=${API_URL:-http://backend:8000}
-      # - MLFLOW_TRACKING_URI=${MLFLOW_TRACKING_URI:-http://mlflow:5000}
     depends_on:
       - backend
     networks:
@@ -110,7 +109,7 @@ services:
     ports:
       - "4200:4200"        # UI + API
     volumes:
-      - prefect_data:/root/.prefect  # persistance SQLite
+      - prefect_data:/root/.prefect
     restart: unless-stopped
     networks:
       - app_network
@@ -130,10 +129,43 @@ services:
     networks:
       - app_network
 
+  db:
+    image: mysql:8.4
+    restart: always
+    environment:
+      MYSQL_DATABASE: adult
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: rootpassword
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./database/data:/docker-entrypoint-initdb.d  # Ajout pour init SQL
+    networks:
+      - app_network
+
+  database-app:
+    build: ./database
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: adult
+      DB_USER: user
+      DB_PASSWORD: password
+    volumes:
+      - ./database:/app
+    networks:
+      - app_network
+    command: ["python", "mysql_initialize.py"]
+
 
 volumes:
   uptime-kuma-data:
   prefect_data:
+  db_data:
 
 
 networks:

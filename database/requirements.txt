@@ -1,0 +1,5 @@
+sqlalchemy
+pymysql
+mysql-connector-python
+alembic
+cryptography
