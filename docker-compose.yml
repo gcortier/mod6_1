@@ -155,11 +155,12 @@ services:
       DB_NAME: adult
       DB_USER: user
       DB_PASSWORD: password
-    volumes:
-      - ./database:/app
+    # volumes:
+    #   - ./database:/app
+    ports:
+      - "8011:8011"
     networks:
       - app_network
-    command: ["python", "mysql_initialize.py"]
 
 
 volumes:

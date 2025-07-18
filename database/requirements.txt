@@ -3,3 +3,6 @@ pymysql
 mysql-connector-python
 alembic
 cryptography
+fastapi
+uvicorn
+pandas
