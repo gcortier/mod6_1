@@ -1,8 +1,9 @@
+fastapi
+uvicorn
+loguru
+pandas
 sqlalchemy
 pymysql
 mysql-connector-python
 alembic
 cryptography
-fastapi
-uvicorn
-pandas
