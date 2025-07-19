@@ -21,6 +21,7 @@ def preprocess_dl(df):
     y = df["class_label"]
     # Encodage simple
     X = pd.get_dummies(X)
+    X = X.astype("float32")  # Conversion explicite pour Keras
     le = LabelEncoder()
     y_enc = le.fit_transform(y)
     y_cat = to_categorical(y_enc)

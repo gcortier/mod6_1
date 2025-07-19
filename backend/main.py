@@ -74,6 +74,7 @@ def train_route(type: str = "ml"):
     Lance l'entraînement du modèle ML ou DL selon le paramètre 'type'.
     Retourne les métriques principales.
     """
+    logger.info(f"train_route: {type}")
     try:
         if type == "ml":
             result = train_model()

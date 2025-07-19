@@ -411,3 +411,20 @@ Arguments received by Sequential.call():
 2025-07-19T12:19:38.142957+0000 WARNING Impossible de charger le modèle sklearn: Failed to download artifacts from path 'mnist_model', please ensure that the path is correct.
 2025-07-19T12:19:38.143586+0000 ERROR Aucun modèle MLflow trouvé ou compatible à l'URI: runs:/13d905e3af5044589ec572a9d67b5fba/mnist_model
 2025-07-19T12:19:38.144173+0000 ERROR Erreur lors de l'entraînement : 'NoneType' object has no attribute 'fit'
+2025-07-19T12:57:27.402467+0000 INFO train_route: ml
+2025-07-19T12:57:27.403202+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-19T12:57:29.827053+0000 INFO Données chargées: shape=(46004, 10)
+2025-07-19T12:57:29.935643+0000 INFO Type du modèle instancié: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+2025-07-19T12:57:38.534883+0000 INFO Modèle entraîné et sauvegardé: models/model_rf.pkl
+2025-07-19T12:57:38.535501+0000 INFO Accuracy=0.8378, F1=0.8350, Durée entraînement=7.27s
+2025-07-19T12:57:38.537922+0000 INFO Entraînement ml terminé: {'accuracy': 0.8378437126399304, 'f1': 0.8349649103916751, 'duration': 7.272804498672485, 'model_path': 'models/model_rf.pkl'}
+2025-07-19T12:58:49.917845+0000 INFO train_route: dl
+2025-07-19T12:58:49.918471+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-19T12:58:49.965669+0000 INFO Données chargées: shape=(46004, 10)
+2025-07-19T12:58:51.108562+0000 ERROR Erreur lors de l'entraînement dl: Invalid dtype: object
+2025-07-19T13:16:39.068959+0000 INFO train_route: dl
+2025-07-19T13:16:39.069764+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-19T13:16:39.139764+0000 INFO Données chargées: shape=(46004, 10)
+2025-07-19T13:17:33.220677+0000 INFO Modèle DL entraîné et sauvegardé: models/model_dl.h5
+2025-07-19T13:17:33.221461+0000 INFO Accuracy=0.8299, F1=0.8244, Durée entraînement=53.18s, CPU=78.87s
+2025-07-19T13:17:33.223588+0000 INFO Entraînement dl terminé: {'accuracy': 0.8299097924138681, 'f1': 0.8244253135301817, 'duration': 53.182822942733765, 'cpu_usage': 78.87, 'model_path': 'models/model_dl.h5'}

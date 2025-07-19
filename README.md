@@ -170,3 +170,62 @@ streamlit run app.py --server.port=8501
 7. Mise en place du monitoring et détection de dérive.
 8. Documentation, tests, CI/CD, livraison.
 
+
+
+# EXPLORATION des entrainnements
+
+# Entrainnement Machine Learning (RandomForest) :
+{ 
+  "accuracy": 0.8378437126399304,
+  "f1": 0.8349649103916751,
+  "duration": 7.272804498672485,
+  "model_path": "models/model_rf.pkl",
+  "cpu_usage": null
+}
+
+## Entrainnement Deep Learning  (MLP Keras) :
+{
+  "accuracy": 0.8299097924138681,
+  "f1": 0.8244253135301817,
+  "duration": 53.182822942733765,
+  "model_path": "models/model_dl.h5",
+  "cpu_usage": 78.87
+}
+
+
+
+
+# Interprétation
+## Performance :
+Le modèle ML classique (RandomForest) obtient une accuracy et un F1-score légèrement supérieurs au modèle deep learning, sur ce jeu de données tabulaire.
+## Temps d’entraînement :
+Le RandomForest est beaucoup plus rapide (7s vs 53s) et consomme moins de ressources CPU.
+Efficacité ressources :
+Le ML classique est plus sobre et efficace pour ce type de données (tabulaires, peu de features complexes).
+Deep Learning :
+Le MLP n’apporte pas de gain de performance ici, mais consomme plus de temps et de CPU. Il serait pertinent pour des données plus complexes (images, texte…).
+## Recommandation
+Pour ce cas d’usage, le pipeline ML classique est à privilégier :
+Meilleure performance, rapidité, sobriété.
+Plus facile à monitorer et à déployer.
+
+Le pipeline DL peut être conservé pour des tests ou des cas futurs, mais n’est pas optimal ici.
+
+
+## Poids du modèle
+Poids du modèle ML (RandomForest): 95.86 Mo
+Poids du modèle DL (MLP Keras): 0.12 Mo
+
+
+Explication de cette différence :
+
+Le RandomForest sauvegarde la structure complète de chaque arbre (noeuds, splits, valeurs, etc.) pour des centaines d’arbres, ce qui peut devenir très volumineux si le modèle est entraîné avec beaucoup de données ou si le nombre d’arbres est élevé.
+Le MLP Keras, même s’il est un réseau de neurones, reste très compact ici car il n’a que quelques couches et peu de paramètres (le jeu de données est simple et le réseau n’a pas besoin d’être profond). Les poids sont stockés sous forme de matrices, ce qui est très efficace en mémoire.
+
+
+
+Si tu veux optimiser le poids du RandomForest, tu peux :
+
+Réduire le nombre d’arbres (n_estimators)
+Limiter la profondeur (max_depth)
+Utiliser des méthodes de compression (joblib avec compress=3)

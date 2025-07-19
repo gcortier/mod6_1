@@ -191,7 +191,7 @@ async def current_model(request: Request):
 
 
 
-@app.post("/predict",)
+@app.post("/predict_mnist",)
 async def predict(file: UploadFile = File(...)):
     """
     Endpoint pour effectuer des prédictions.
@@ -220,7 +220,7 @@ async def predict(file: UploadFile = File(...)):
         logger.error(f"Erreur lors du load du modèle dans MLflow: {e}")
         raise HTTPException(status_code=500, detail=f"Erreur lors du load du modèle dans MLflow: {e}")
 
-@app.post("/train",)
+@app.post("/train_mnist",)
 async def train():
     """
     Endpoint pour entraîner un modèle.
@@ -255,7 +255,7 @@ class RetrainPayload(BaseModel):
 #   "base_data_path": "./data/mnist_full.csv"
 # }
 
-@app.post("/retrain")
+@app.post("/retrain_mnist")
 async def retrain_endpoint(payload: RetrainPayload = Body(...)):
     """
     Endpoint pour déclencher un réentraînement avec Optuna à partir de Prefect.
