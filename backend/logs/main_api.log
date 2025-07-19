@@ -387,3 +387,27 @@ Arguments received by Sequential.call():
 2025-07-16T18:04:54.314536+0000 INFO Route '/' called by 172.18.0.1
 2025-07-16T18:05:13.540482+0000 INFO Route '/' called by 172.18.0.1
 2025-07-16T18:06:32.728222+0000 INFO Route '/' called by 172.18.0.1
+2025-07-19T11:36:22.777938+0000 INFO Starting training iteration 0 of 1
+2025-07-19T11:36:29.274926+0000 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-19T11:36:29.275863+0000 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-19T11:36:30.607495+0000 INFO Loading model from previous model_id: 13d905e3af5044589ec572a9d67b5fba
+2025-07-19T11:36:33.057627+0000 WARNING Impossible de charger le modèle Keras: Failed to download artifacts from path 'mnist_model', please ensure that the path is correct.
+2025-07-19T11:36:34.729478+0000 WARNING Impossible de charger le modèle sklearn: Failed to download artifacts from path 'mnist_model', please ensure that the path is correct.
+2025-07-19T11:36:34.730066+0000 ERROR Aucun modèle MLflow trouvé ou compatible à l'URI: runs:/13d905e3af5044589ec572a9d67b5fba/mnist_model
+2025-07-19T11:36:34.730571+0000 ERROR Erreur lors de l'entraînement : 'NoneType' object has no attribute 'fit'
+2025-07-19T12:06:55.220760+0000 INFO Starting training iteration 0 of 1
+2025-07-19T12:07:01.740468+0000 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-19T12:07:01.741122+0000 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-19T12:07:02.933737+0000 INFO Loading model from previous model_id: 13d905e3af5044589ec572a9d67b5fba
+2025-07-19T12:07:04.420892+0000 WARNING Impossible de charger le modèle Keras: Failed to download artifacts from path 'mnist_model', please ensure that the path is correct.
+2025-07-19T12:07:06.059900+0000 WARNING Impossible de charger le modèle sklearn: Failed to download artifacts from path 'mnist_model', please ensure that the path is correct.
+2025-07-19T12:07:06.062745+0000 ERROR Aucun modèle MLflow trouvé ou compatible à l'URI: runs:/13d905e3af5044589ec572a9d67b5fba/mnist_model
+2025-07-19T12:07:06.063447+0000 ERROR Erreur lors de l'entraînement : 'NoneType' object has no attribute 'fit'
+2025-07-19T12:19:26.256867+0000 INFO Starting training iteration 0 of 1
+2025-07-19T12:19:32.911832+0000 INFO Dataset shape after cleaning: (60000, 785)
+2025-07-19T12:19:32.912792+0000 INFO Training data loaded: mnist_full.csv with shape (60000, 785)
+2025-07-19T12:19:34.918960+0000 INFO Loading model from previous model_id: 13d905e3af5044589ec572a9d67b5fba
+2025-07-19T12:19:36.678089+0000 WARNING Impossible de charger le modèle Keras: Failed to download artifacts from path 'mnist_model', please ensure that the path is correct.
+2025-07-19T12:19:38.142957+0000 WARNING Impossible de charger le modèle sklearn: Failed to download artifacts from path 'mnist_model', please ensure that the path is correct.
+2025-07-19T12:19:38.143586+0000 ERROR Aucun modèle MLflow trouvé ou compatible à l'URI: runs:/13d905e3af5044589ec572a9d67b5fba/mnist_model
+2025-07-19T12:19:38.144173+0000 ERROR Erreur lors de l'entraînement : 'NoneType' object has no attribute 'fit'

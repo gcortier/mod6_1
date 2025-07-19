@@ -58,8 +58,8 @@ async def correct(file: UploadFile = File(...), pred: int = Form(...), correctio
 
 
 
-from backend.training.train import train_model
-from backend.training.train_dl import train_dl_model
+from training.train import train_model
+from training.train_dl import train_dl_model
 
 class TrainResponse(BaseModel):
     accuracy: float

@@ -10,6 +10,8 @@ COPY logs ./logs
 # COPY figures ./figures
 COPY models ./models
 COPY modules ./modules
+COPY training ./training
+COPY utils ./utils
 COPY settings ./settings
 COPY tests ./tests
 COPY api_base.py ./

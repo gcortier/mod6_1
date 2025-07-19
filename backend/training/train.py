@@ -29,6 +29,10 @@ def train_model():
     X, y = preprocess(df)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     model = RandomForestClassifier(n_estimators=100, random_state=42)
+    logger.info(f"Type du modèle instancié: {type(model)}")
+    if model is None:
+        logger.error("Le modèle RandomForestClassifier n'a pas été instancié correctement.")
+        raise ValueError("Le modèle est None.")
     start = time.time()
     model.fit(X_train, y_train)
     duration = time.time() - start
