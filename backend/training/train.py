@@ -5,7 +5,11 @@ from sklearn.metrics import accuracy_score, f1_score
 import joblib
 import time
 from loguru import logger
+import mlflow
+import mlflow.sklearn
 from utils.fetch_data import fetch_parquet, load_parquet
+import psutil
+
 
 DATABASE_API_URL = "http://database-app:8011/download-parquet"
 MODEL_PATH = "models/model_rf.pkl"
@@ -28,20 +32,32 @@ def train_model():
     logger.info(f"Données chargées: shape={df.shape}")
     X, y = preprocess(df)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    model = RandomForestClassifier(n_estimators=100, random_state=42)
-    logger.info(f"Type du modèle instancié: {type(model)}")
-    if model is None:
-        logger.error("Le modèle RandomForestClassifier n'a pas été instancié correctement.")
-        raise ValueError("Le modèle est None.")
-    start = time.time()
-    model.fit(X_train, y_train)
-    duration = time.time() - start
-    y_pred = model.predict(X_test)
-    acc = accuracy_score(y_test, y_pred)
-    f1 = f1_score(y_test, y_pred, average="weighted")
-    joblib.dump(model, MODEL_PATH)
-    logger.info(f"Modèle entraîné et sauvegardé: {MODEL_PATH}")
-    logger.info(f"Accuracy={acc:.4f}, F1={f1:.4f}, Durée entraînement={duration:.2f}s")
+    with mlflow.start_run():
+        model = RandomForestClassifier(n_estimators=100, random_state=42)
+        logger.info(f"Type du modèle instancié: {type(model)}")
+        if model is None:
+            logger.error("Le modèle RandomForestClassifier n'a pas été instancié correctement.")
+            raise ValueError("Le modèle est None.")
+        start = time.time()
+        cpu_start = psutil.cpu_times().user
+        model.fit(X_train, y_train)
+        cpu_end = psutil.cpu_times().user
+        duration = time.time() - start
+        y_pred = model.predict(X_test)
+        acc = accuracy_score(y_test, y_pred)
+        f1 = f1_score(y_test, y_pred, average="weighted")
+        cpu_usage = cpu_end - cpu_start
+        joblib.dump(model, MODEL_PATH)
+        # Log MLflow params, metrics, and model
+        mlflow.log_param("n_estimators", 100)
+        mlflow.log_param("random_state", 42)
+        mlflow.log_metric("accuracy", acc)
+        mlflow.log_metric("f1", f1)
+        mlflow.log_metric("duration", duration)
+        mlflow.log_metric("cpu_usage", cpu_usage)
+        mlflow.sklearn.log_model(model, "model")
+        logger.info(f"Modèle entraîné et sauvegardé: {MODEL_PATH}")
+        logger.info(f"Accuracy={acc:.4f}, F1={f1:.4f}, Durée entraînement={duration:.2f}s")
     return {"accuracy": acc, "f1": f1, "duration": duration, "model_path": MODEL_PATH}
 
 if __name__ == "__main__":

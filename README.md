@@ -180,7 +180,7 @@ streamlit run app.py --server.port=8501
   "f1": 0.8349649103916751,
   "duration": 7.272804498672485,
   "model_path": "models/model_rf.pkl",
-  "cpu_usage": null
+  "cpu_usage": 5.28
 }
 
 ## Entrainnement Deep Learning  (MLP Keras) :

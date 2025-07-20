@@ -428,3 +428,20 @@ Arguments received by Sequential.call():
 2025-07-19T13:17:33.220677+0000 INFO Modèle DL entraîné et sauvegardé: models/model_dl.h5
 2025-07-19T13:17:33.221461+0000 INFO Accuracy=0.8299, F1=0.8244, Durée entraînement=53.18s, CPU=78.87s
 2025-07-19T13:17:33.223588+0000 INFO Entraînement dl terminé: {'accuracy': 0.8299097924138681, 'f1': 0.8244253135301817, 'duration': 53.182822942733765, 'cpu_usage': 78.87, 'model_path': 'models/model_dl.h5'}
+2025-07-19T18:29:32.234332+0000 INFO Route '/' called by 172.18.0.1
+2025-07-19T18:29:56.838255+0000 INFO Route '/' called by 172.18.0.1
+2025-07-19T18:31:06.907863+0000 INFO Route '/' called by 172.18.0.1
+2025-07-20T08:20:42.069694+0000 INFO train_route: ml
+2025-07-20T08:20:42.105848+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-20T08:20:44.597039+0000 INFO Données chargées: shape=(46004, 10)
+2025-07-20T08:20:45.687119+0000 INFO Type du modèle instancié: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+2025-07-20T08:20:53.856234+0000 INFO Modèle entraîné et sauvegardé: models/model_rf.pkl
+2025-07-20T08:20:53.856566+0000 INFO Accuracy=0.8378, F1=0.8350, Durée entraînement=6.44s
+2025-07-20T08:20:53.923695+0000 INFO Entraînement ml terminé: {'accuracy': 0.8378437126399304, 'f1': 0.8349649103916751, 'duration': 6.438981294631958, 'model_path': 'models/model_rf.pkl'}
+2025-07-20T08:26:16.562025+0000 INFO train_route: ml
+2025-07-20T08:26:16.562759+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-20T08:26:16.721438+0000 INFO Données chargées: shape=(46004, 10)
+2025-07-20T08:26:17.336268+0000 INFO Type du modèle instancié: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+2025-07-20T08:26:33.066163+0000 INFO Modèle entraîné et sauvegardé: models/model_rf.pkl
+2025-07-20T08:26:33.066595+0000 INFO Accuracy=0.8378, F1=0.8350, Durée entraînement=5.28s
+2025-07-20T08:26:33.343975+0000 INFO Entraînement ml terminé: {'accuracy': 0.8378437126399304, 'f1': 0.8349649103916751, 'duration': 5.283423662185669, 'model_path': 'models/model_rf.pkl'}
