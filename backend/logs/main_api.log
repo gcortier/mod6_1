@@ -445,3 +445,6 @@ Arguments received by Sequential.call():
 2025-07-20T08:26:33.066163+0000 INFO Modèle entraîné et sauvegardé: models/model_rf.pkl
 2025-07-20T08:26:33.066595+0000 INFO Accuracy=0.8378, F1=0.8350, Durée entraînement=5.28s
 2025-07-20T08:26:33.343975+0000 INFO Entraînement ml terminé: {'accuracy': 0.8378437126399304, 'f1': 0.8349649103916751, 'duration': 5.283423662185669, 'model_path': 'models/model_rf.pkl'}
+2025-07-20T18:39:38.497463+0000 INFO Route '/' called by 172.18.0.1
+2025-07-20T18:40:06.994850+0000 INFO Route '/' called by 172.18.0.1
+2025-07-20T18:41:05.863781+0000 INFO Route '/' called by 172.18.0.1

@@ -1,8 +1,9 @@
 .venv
 __pycache__
+__trash
+__airbus
 .pytest_cache
 .env
-__trash
 mlflow/artifacts
 mlflow/mlruns
 mnist_full.csv
