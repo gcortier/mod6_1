@@ -132,7 +132,7 @@ services:
     image: mysql:8.4
     restart: always
     environment:
-      MYSQL_DATABASE: adult
+      MYSQL_DATABASE: flights
       MYSQL_USER: user
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: rootpassword
@@ -151,7 +151,7 @@ services:
     environment:
       DB_HOST: db
       DB_PORT: 3306
-      DB_NAME: adult
+      DB_NAME: flights
       DB_USER: user
       DB_PASSWORD: password
     # volumes:

@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /app
 # COPY . /app
-COPY adult ./adult
+COPY flights ./flights
 COPY modules ./modules
 COPY main.py ./
 COPY api_base.py ./

@@ -2,14 +2,14 @@ import os
 import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from .models import Base, Person, Workclass, Education, MaritalStatus, Occupation, NativeCountry, ClassLabel
+from flights.data.models import Base, Carrier, Airport, TimeBlock, Flight
 
 def get_mysql_url():
     user = os.getenv('DB_USER', 'user')
     password = os.getenv('DB_PASSWORD', 'password')
     host = os.getenv('DB_HOST', 'localhost')
     port = os.getenv('DB_PORT', '3306')
-    db = os.getenv('DB_NAME', 'adult')
+    db = os.getenv('DB_NAME', 'flights')
     return f"mysql+pymysql://{user}:{password}@{host}:{port}/{db}?charset=utf8mb4"
 
 def get_engine():

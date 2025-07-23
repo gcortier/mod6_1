@@ -1,5 +1,5 @@
 from sqlalchemy.orm import sessionmaker
-from database.modules.mysql_initialize import get_engine
+from modules.mysql_initialize import get_engine
 
 # Crée une session SQLAlchemy connectée à la base
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=get_engine())

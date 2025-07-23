@@ -5,7 +5,7 @@ from sqlalchemy import engine_from_config, pool
 from alembic import context
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from modules.models import Base  # Import des modèles SQLAlchemy
+from flights.data.models import Base  # Import des modèles SQLAlchemy
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
