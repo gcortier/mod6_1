@@ -51,7 +51,7 @@ def get_latest_flights():
                 "id": f.id,
                 "flight_date": f.flight_date,
                 "day_of_week": f.day_of_week,
-                "flight_number": f.flight_number,
+                # "flight_number": f.flight_number,
                 "carrier_id": f.carrier_id,
                 "origin_id": f.origin_id,
                 "dest_id": f.dest_id,

@@ -70,9 +70,9 @@
     },
     {
       "name": "FL_NUM",
-      "description": "Numéro du vol",
+      "description": "Numéro du vol -- A part si on est supersticieux y'a pas de raison de le garder",
       "type": "int",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     }
   ],
@@ -210,14 +210,14 @@
     {
       "name": "CRS_DEP_TIME",
       "description": "Heure de départ prévue (HHMM)",
-      "type": "str",
+      "type": "int",
       "keep": true,
       "is_describe_in_topic": true
     },
     {
       "name": "DEP_TIME",
       "description": "Heure réelle de départ",
-      "type": "str",
+      "type": "int",
       "keep": true,
       "is_describe_in_topic": true
     },
@@ -230,9 +230,9 @@
     },
     {
       "name": "DEP_DELAY_NEW",
-      "description": "Retard au départ, avec 0 pour les retards ≤ 0",
+      "description": "Retard au départ, avec 0 pour les retards ≤ 0 : DEP_DELAY est plus précis",
       "type": "float",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
@@ -244,16 +244,16 @@
     },
     {
       "name": "DEP_DELAY_GROUP",
-      "description": "Groupe de retard au départ (par tranches de 15 minutes) -1 = on time > -1 = tranche de 15 minutes",
+      "description": "Redondant: Groupe de retard au départ (par tranches de 15 minutes) -1 = on time > -1 = tranche de 15 minutes",
       "type": "int",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "DEP_TIME_BLK",
-      "description": "Plage horaire du départ (ex. : '0600-0659')",
+      "description": "Redondant : Plage horaire du départ (ex. : '0600-0659')",
       "type": "str",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
@@ -266,94 +266,94 @@
     {
       "name": "WHEELS_OFF",
       "description": "Heure de décollage (roues quittant le sol)",
-      "type": "str",
+      "type": "int",
       "keep": true,
       "is_describe_in_topic": true
     },
     {
       "name": "WHEELS_ON",
-      "description": "Heure d'atterrissage (roues touchant le sol)",
-      "type": "str",
-      "keep": true,
+      "description": "Biais de prédiction: Heure d'atterrissage (roues touchant le sol)",
+      "type": "int",
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "TAXI_IN",
-      "description": "Temps de roulage après l'atterrissage (en minutes)",
+      "description": "Biais de prédiction:Temps de roulage après l'atterrissage (en minutes)",
       "type": "float",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "CRS_ARR_TIME",
       "description": "Heure d'arrivée prévue",
-      "type": "str",
+      "type": "int",
       "keep": true,
       "is_describe_in_topic": true
     },
     {
       "name": "ARR_TIME",
-      "description": "Heure réelle d'arrivée",
+      "description": "Biais de prédiction:Heure réelle d'arrivée",
       "type": "str",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "ARR_DELAY",
-      "description": "Retard à l'arrivée en minutes",
+      "description": "Biais de prédiction: Retard à l'arrivée en minutes",
       "type": "float",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "ARR_DELAY_NEW",
-      "description": "Retard à l'arrivée, avec 0 pour les retards ≤ 0",
+      "description": "Biais de prédiction: Retard à l'arrivée, avec 0 pour les retards ≤ 0",
       "type": "float",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "ARR_DEL15",
-      "description": "Indicateur de retard à l'arrivée ≥ 15 minutes (1 = oui, 0 = non)",
+      "description": "CIBLE: Indicateur de retard à l'arrivée ≥ 15 minutes (1 = oui, 0 = non)",
       "type": "bool",
       "keep": true,
       "is_describe_in_topic": true
     },
     {
       "name": "ARR_DELAY_GROUP",
-      "description": "Groupe de retard à l'arrivée (par tranches de 15 minutes)",
+      "description": "Biais de prédiction: Groupe de retard à l'arrivée (par tranches de 15 minutes)",
       "type": "int",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "ARR_TIME_BLK",
-      "description": "Plage horaire de l'arrivée (ex. : '0900-0959')",
+      "description": "Biais de prédiction: Plage horaire de l'arrivée (ex. : '0900-0959')",
       "type": "str",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     }
   ],
   "Annulations et détournements": [
     {
       "name": "CANCELLED",
-      "description": "Indicateur d'annulation du vol (1 = oui, 0 = non)",
+      "description": "BAD REPRESENTATION (1 value): Indicateur d'annulation du vol (1 = oui, 0 = non)",
       "type": "bool",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "CANCELLATION_CODE",
-      "description": "Code de la raison de l'annulation (A = transporteur, B = météo, C = NAS (National Airspace System), D = sécurité)",
+      "description": "BAD REPRESENTATION (1 value): Code de la raison de l'annulation (A = transporteur, B = météo, C = NAS (National Airspace System), D = sécurité)",
       "type": "str",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "DIVERTED",
-      "description": "Indicateur de vol détourné (1 = oui, 0 = non)",
+      "description": "BAD REPRESENTATION (1 value): Indicateur de vol détourné (1 = oui, 0 = non)",
       "type": "bool",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     }
   ],
@@ -367,35 +367,35 @@
     },
     {
       "name": "ACTUAL_ELAPSED_TIME",
-      "description": "Durée réelle du vol (en minutes)",
+      "description": "Biais de prédiction: Durée réelle du vol (en minutes)",
       "type": "float",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "AIR_TIME",
-      "description": "Temps de vol effectif (en minutes)",
+      "description": "Biais de prédiction: Temps de vol effectif (en minutes)",
       "type": "float",
-      "keep": true,
+      "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "FLIGHTS",
       "description": "Nombre de vols (toujours 1 pour les vols réguliers)",
       "type": "int",
-      "keep": true
+      "keep": false
     },
     {
       "name": "DISTANCE",
       "description": "Distance du vol (en miles)",
       "type": "float",
-      "keep": true
+      "keep": false
     },
     {
       "name": "DISTANCE_GROUP",
       "description": "Groupe de distance (tranches)",
       "type": "int",
-      "keep": true
+      "keep": false
     }
   ],
   "Retards détaillés": [
@@ -403,31 +403,31 @@
       "name": "CARRIER_DELAY",
       "description": "Retard dû au transporteur (en minutes) => une compagnie qui a tendance à avoir des retards",
       "type": "float",
-      "keep": true
+      "keep": false
     },
     {
       "name": "WEATHER_DELAY",
       "description": "Retard dû à la météo (en minutes) -- Ne doit pas compter",
       "type": "float",
-      "keep": true
+      "keep": false
     },
     {
       "name": "NAS_DELAY",
       "description": "Retard dû au système national de l'espace aérien (NAS) (en minutes) => si traffic encombré : chance d'etre retardé",
       "type": "float",
-      "keep": true
+      "keep": false
     },
     {
       "name": "SECURITY_DELAY",
       "description": "Retard dû à la sécurité (en minutes)",
       "type": "float",
-      "keep": true
+      "keep": false
     },
     {
       "name": "LATE_AIRCRAFT_DELAY",
       "description": "Retard dû à l'arrivée tardive de l'avion précédent (en minutes) => Conséquence effet boule de neige",
       "type": "float",
-      "keep": true
+      "keep": false
     }
   ],
   "Autres": [
@@ -435,19 +435,19 @@
       "name": "FIRST_DEP_TIME",
       "description": "Heure du premier départ (si vol retardé)",
       "type": "str",
-      "keep": true
+      "keep": false
     },
     {
       "name": "TOTAL_ADD_GTIME",
       "description": "Temps total additionnel au sol (en minutes)",
       "type": "float",
-      "keep": true
+      "keep": false
     },
     {
       "name": "LONGEST_ADD_GTIME",
       "description": "Plus long temps additionnel au sol (en minutes)",
       "type": "float",
-      "keep": true
+      "keep": false
     }
   ]
 }
