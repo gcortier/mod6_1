@@ -24,7 +24,9 @@ def download_parquet():
     """
     Permet de télécharger le fichier Parquet complet contenant toutes les données.
     """
-    parquet_path = "./adult/adult_all.parquet"
+
+    # parquet_path = "./flights/data/all_cleaned.parquet"
+    parquet_path = "./flights/data/processed/sample_cleaned.parquet"
     try:
         if not os.path.exists(parquet_path):
             logger.error(f"Fichier Parquet non trouvé: {parquet_path}")

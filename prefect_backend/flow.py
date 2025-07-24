@@ -76,5 +76,5 @@ def periodic_check():
 if __name__ == "__main__":
     periodic_check.serve(
         name="every-hour",
-        interval=360  # toutes les heures 3600
+        interval=3600  # toutes les heures 3600
     )
