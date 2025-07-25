@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.models import Sequential
@@ -13,8 +14,11 @@ from loguru import logger
 from utils.fetch_data import fetch_parquet, load_parquet
 import psutil
 
+import lightgbm as lgb
+
 DATABASE_API_URL = "http://database-app:8011/download-parquet"
 MODEL_PATH = "models/model_dl.h5"
+MODEL_GBM_PATH = "models/model_gbm.pkl"
 
 
 def preprocess_dl(df):
@@ -68,6 +72,65 @@ def train_dl_model():
         logger.info(f"Modèle DL entraîné et sauvegardé: {MODEL_PATH}")
         logger.info(f"Accuracy={acc:.4f}, F1={f1:.4f}, Durée entraînement={duration:.2f}s, CPU={cpu_usage:.2f}s")
     return {"accuracy": acc, "f1": f1, "duration": duration, "cpu_usage": cpu_usage, "model_path": MODEL_PATH}
+
+
+
+def preprocess_gbm(df):
+    df = df.dropna()
+    
+
+
+    # Conversion du datetime en timestamp pour garder une information temporelle
+    df["FL_DATE"] = df["FL_DATE"].astype("int64") // 10**9  # en secondes
+
+    # Préparation des données : X = toutes les colonnes sauf ARR_DEL15, y = ARR_DEL15
+    y = df['ARR_DEL15'].astype(int)
+    X = df.drop(columns=['ARR_DEL15'])
+
+    # Encodage des variables catégorielles (one-hot)
+    X = pd.get_dummies(X, drop_first=True)
+    
+    # Split train/test
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+    # Standardisation des features
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    X_test_scaled = scaler.transform(X_test)
+    return X_train_scaled, X_test_scaled, y_train, y_test
+
+def train_gbm_model():
+    logger.info("Début du téléchargement du fichier Parquet...")
+    parquet_path = fetch_parquet(DATABASE_API_URL, save_path="data/flights_train.parquet")
+    df = load_parquet(parquet_path)
+    logger.info(f"Données chargées: shape={df.shape}")
+    X_train, X_test, y_train, y_test = preprocess_gbm(df)
+    with mlflow.start_run():
+        start = time.time()
+        cpu_start = psutil.cpu_times().user
+        model = lgb.LGBMClassifier(random_state=42, n_estimators=100)
+        model.fit(X_train, y_train)
+        cpu_end = psutil.cpu_times().user
+        duration = time.time() - start
+        y_pred = model.predict(X_test)
+        acc = accuracy_score(y_test, y_pred)
+        f1 = f1_score(y_test, y_pred, average="weighted")
+        cpu_usage = cpu_end - cpu_start
+        # Log MLflow params, metrics, and model
+        mlflow.log_param("n_estimators", 100)
+        mlflow.log_param("random_state", 42)
+        mlflow.log_metric("accuracy", acc)
+        mlflow.log_metric("f1", f1)
+        mlflow.log_metric("duration", duration)
+        mlflow.log_metric("cpu_usage", cpu_usage)
+        mlflow.sklearn.log_model(model, "model")
+        logger.info(f"Modèle LightGBM entraîné et sauvegardé.")
+        logger.info(f"Accuracy={acc:.4f}, F1={f1:.4f}, Durée entraînement={duration:.2f}s, CPU={cpu_usage:.2f}s")
+    return {"accuracy": acc, "f1": f1, "duration": duration, "cpu_usage": cpu_usage, "model_path": MODEL_GBM_PATH}
+
+
+
+
 
 if __name__ == "__main__":
     train_dl_model()

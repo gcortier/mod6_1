@@ -59,7 +59,7 @@ async def correct(file: UploadFile = File(...), pred: int = Form(...), correctio
 
 
 from training.train import train_model
-from training.train_dl import train_dl_model
+from training.train_dl import train_dl_model, train_gbm_model
 
 class TrainResponse(BaseModel):
     accuracy: float
@@ -69,7 +69,7 @@ class TrainResponse(BaseModel):
     cpu_usage: float = None
 
 @app.post("/train")
-def train_route(type: str = "ml"):
+def train_route(type: str = "gbm"):
     """
     Lance l'entraînement du modèle ML ou DL selon le paramètre 'type'.
     Retourne les métriques principales.
@@ -80,6 +80,8 @@ def train_route(type: str = "ml"):
             result = train_model()
         elif type == "dl":
             result = train_dl_model()
+        elif type == "gbm":
+            result = train_gbm_model()
         else:
             raise HTTPException(status_code=400, detail="Type de modèle inconnu. Utilisez 'ml' ou 'dl'.")
         # Mise à jour des métriques Prometheus

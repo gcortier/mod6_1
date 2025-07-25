@@ -10,10 +10,22 @@ class Carrier(Base):
     airline_id = Column(Integer, unique=True, nullable=False)  # AIRLINE_ID
     flights = relationship('Flight', back_populates='carrier')
 
+class State(Base):
+    __tablename__ = 'state'
+    id = Column(Integer, primary_key=True)
+    abbr = Column(String(4), unique=True, nullable=False)  # ORIGIN_STATE_ABR, DEST_STATE_ABR
+    fips = Column(String(8))  # ORIGIN_STATE_FIPS, DEST_STATE_FIPS
+    name = Column(String(64))  # ORIGIN_STATE_NM, DEST_STATE_NM
+    airports = relationship('Airport', back_populates='state')
+
 class Airport(Base):
     __tablename__ = 'airport'
     id = Column(Integer, primary_key=True)
     code = Column(String(8), unique=True, nullable=False)  # ORIGIN or DEST
+    city_name = Column(String(64))  # ORIGIN_CITY_NAME, DEST_CITY_NAME
+    wac = Column(Integer)  # ORIGIN_WAC, DEST_WAC
+    state_id = Column(Integer, ForeignKey('state.id'))
+    state = relationship('State', back_populates='airports')
     flights_origin = relationship('Flight', back_populates='origin', foreign_keys='Flight.origin_id')
     flights_dest = relationship('Flight', back_populates='dest', foreign_keys='Flight.dest_id')
 
@@ -30,6 +42,7 @@ class Flight(Base):
     flight_date = Column(Date, nullable=False)  # FL_DATE
     day_of_week = Column(SmallInteger, nullable=False)  # DAY_OF_WEEK
     flight_number = Column(Integer, nullable=False)  # FL_NUM
+    tail_num = Column(String(16))  # TAIL_NUM
 
     carrier_id = Column(Integer, ForeignKey('carrier.id'), nullable=False)
     origin_id = Column(Integer, ForeignKey('airport.id'), nullable=False)

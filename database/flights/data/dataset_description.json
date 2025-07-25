@@ -56,21 +56,21 @@
     },
     {
       "name": "CARRIER",
-      "description": "Code du transporteur",
+      "description": "Ne sert pas à la prediction : Code du transporteur : UNIQUE_CARRIER est plus fiable dans le temps",
       "type": "str",
       "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "TAIL_NUM",
-      "description": "Numéro de queue de l'avion",
-      "type": "str",
+      "description": "Ne sert pas à la prediction : Numéro de queue de l'avion",
+      "type": "int",
       "keep": false,
       "is_describe_in_topic": true
     },
     {
       "name": "FL_NUM",
-      "description": "Numéro du vol -- A part si on est supersticieux y'a pas de raison de le garder",
+      "description": "Numéro du vol -- Pas d'interet pour la prediction et risque de fuite d'information",
       "type": "int",
       "keep": false,
       "is_describe_in_topic": true
@@ -238,7 +238,7 @@
     {
       "name": "DEP_DEL15",
       "description": "Indicateur de retard au départ ≥ 15 minutes (1 = oui, 0 = non)",
-      "type": "bool",
+      "type": "int",
       "keep": true,
       "is_describe_in_topic": true
     },
@@ -315,7 +315,7 @@
     {
       "name": "ARR_DEL15",
       "description": "CIBLE: Indicateur de retard à l'arrivée ≥ 15 minutes (1 = oui, 0 = non)",
-      "type": "bool",
+      "type": "int",
       "keep": true,
       "is_describe_in_topic": true
     },

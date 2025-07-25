@@ -452,3 +452,25 @@ Arguments received by Sequential.call():
 2025-07-21T18:50:13.049672+0000 INFO Route '/' called by 172.18.0.1
 2025-07-22T18:59:39.146589+0000 INFO Route '/' called by 172.18.0.1
 2025-07-22T19:00:11.824769+0000 INFO Route '/' called by 172.18.0.1
+2025-07-24T13:20:24.924022+0000 INFO train_route: gbm
+2025-07-24T13:20:24.924581+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-24T13:20:24.985390+0000 INFO Données chargées: shape=(100000, 15)
+2025-07-24T13:20:25.342197+0000 ERROR Erreur lors de l'entraînement gbm: Cannot cast DatetimeArray to dtype float64
+2025-07-24T13:24:54.650345+0000 INFO train_route: gbm
+2025-07-24T13:24:54.652199+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-24T13:24:54.722793+0000 INFO Données chargées: shape=(100000, 15)
+2025-07-24T13:25:10.723057+0000 INFO Modèle LightGBM entraîné et sauvegardé.
+2025-07-24T13:25:10.723519+0000 INFO Accuracy=0.9507, F1=0.9493, Durée entraînement=3.58s, CPU=5.07s
+2025-07-24T13:25:10.841077+0000 INFO Entraînement gbm terminé: {'accuracy': 0.9507333333333333, 'f1': 0.9492867252003149, 'duration': 3.575615167617798, 'cpu_usage': 5.07000000000005}
+2025-07-24T13:25:10.841546+0000 ERROR Erreur lors de l'entraînement gbm: 1 validation error for TrainResponse
+model_path
+  Field required [type=missing, input_value={'accuracy': 0.9507333333...sage': 5.07000000000005}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-07-24T13:28:28.050456+0000 INFO train_route: gbm
+2025-07-24T13:28:28.051162+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-24T13:28:28.116247+0000 INFO Données chargées: shape=(100000, 15)
+2025-07-24T13:28:38.937770+0000 INFO Modèle LightGBM entraîné et sauvegardé.
+2025-07-24T13:28:38.938486+0000 INFO Accuracy=0.9507, F1=0.9493, Durée entraînement=3.21s, CPU=4.96s
+2025-07-24T13:28:39.118417+0000 INFO Entraînement gbm terminé: {'accuracy': 0.9507333333333333, 'f1': 0.9492867252003149, 'duration': 3.2071616649627686, 'cpu_usage': 4.960000000000036, 'model_path': 'models/model_gbm.pkl'}
+2025-07-24T19:10:51.780741+0000 INFO Route '/' called by 172.18.0.1
+2025-07-24T19:11:08.227342+0000 INFO Route '/' called by 172.18.0.1

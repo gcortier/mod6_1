@@ -2,6 +2,7 @@ FROM python:3.11-slim
 WORKDIR /app
 # RUN pip install fastapi uvicorn loguru pydantic pytest
 # execure l'install depuis requierements.txt
+RUN apt-get update && apt-get install -y libgomp1
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 # copy selective

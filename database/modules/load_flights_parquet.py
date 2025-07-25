@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy.exc import IntegrityError
 from datetime import datetime
 from modules.connect_and_query import get_session
-from flights.data.models import Carrier, Airport, TimeBlock, Flight
+from flights.data.models import Carrier, Airport, State, TimeBlock, Flight
 
 PARQUET_PATH = "./flights/data/processed/all_from_subject.parquet"
 BATCH_START = 0
@@ -35,11 +35,11 @@ def main():
         # Variables temporelles
         "DAY_OF_WEEK", "FL_DATE",
         # Informations sur le vol
-        "UNIQUE_CARRIER", "AIRLINE_ID", "FL_NUM",
+        "UNIQUE_CARRIER", "AIRLINE_ID", "FL_NUM", "TAIL_NUM",
         # Aéroport d'origine
-        "ORIGIN",
+        "ORIGIN", "ORIGIN_CITY_NAME", "ORIGIN_STATE_ABR", "ORIGIN_STATE_FIPS", "ORIGIN_STATE_NM", "ORIGIN_WAC",
         # Aéroport de destination
-        "DEST",
+        "DEST", "DEST_CITY_NAME", "DEST_STATE_ABR", "DEST_STATE_FIPS", "DEST_STATE_NM", "DEST_WAC",
         # Horaires et retards
         "CRS_DEP_TIME", "DEP_TIME", "DEP_DELAY", "DEP_DELAY_NEW", "DEP_DEL15", "DEP_DELAY_GROUP",
         "DEP_TIME_BLK", "TAXI_OUT", "WHEELS_OFF", "WHEELS_ON", "TAXI_IN",
@@ -56,10 +56,41 @@ def main():
 
     session = get_session()
 
+
     for _, row in df.iterrows():
+        # State ORIGIN
+        origin_state = get_or_create(
+            session, State,
+            abbr=row["ORIGIN_STATE_ABR"] if pd.notnull(row["ORIGIN_STATE_ABR"]) else None,
+            fips=row["ORIGIN_STATE_FIPS"] if pd.notnull(row["ORIGIN_STATE_FIPS"]) else None,
+            name=row["ORIGIN_STATE_NM"] if pd.notnull(row["ORIGIN_STATE_NM"]) else None
+        ) if pd.notnull(row["ORIGIN_STATE_ABR"]) else None
+        # State DEST
+        dest_state = get_or_create(
+            session, State,
+            abbr=row["DEST_STATE_ABR"] if pd.notnull(row["DEST_STATE_ABR"]) else None,
+            fips=row["DEST_STATE_FIPS"] if pd.notnull(row["DEST_STATE_FIPS"]) else None,
+            name=row["DEST_STATE_NM"] if pd.notnull(row["DEST_STATE_NM"]) else None
+        ) if pd.notnull(row["DEST_STATE_ABR"]) else None
+
+        # Airport ORIGIN
+        origin = get_or_create(
+            session, Airport,
+            code=row["ORIGIN"],
+            city_name=row["ORIGIN_CITY_NAME"] if pd.notnull(row["ORIGIN_CITY_NAME"]) else None,
+            wac=int(row["ORIGIN_WAC"]) if pd.notnull(row["ORIGIN_WAC"]) else None,
+            state_id=origin_state.id if origin_state else None
+        )
+        # Airport DEST
+        dest = get_or_create(
+            session, Airport,
+            code=row["DEST"],
+            city_name=row["DEST_CITY_NAME"] if pd.notnull(row["DEST_CITY_NAME"]) else None,
+            wac=int(row["DEST_WAC"]) if pd.notnull(row["DEST_WAC"]) else None,
+            state_id=dest_state.id if dest_state else None
+        )
+
         carrier = get_or_create(session, Carrier, code=row["UNIQUE_CARRIER"], airline_id=row["AIRLINE_ID"])
-        origin = get_or_create(session, Airport, code=row["ORIGIN"])
-        dest = get_or_create(session, Airport, code=row["DEST"])
         dep_time_blk = get_or_create(session, TimeBlock, block=row["DEP_TIME_BLK"]) if pd.notnull(row["DEP_TIME_BLK"]) else None
         arr_time_blk = get_or_create(session, TimeBlock, block=row["ARR_TIME_BLK"]) if pd.notnull(row["ARR_TIME_BLK"]) else None
 
@@ -67,6 +98,7 @@ def main():
             flight_date = row["FL_DATE"] if isinstance(row["FL_DATE"], datetime) else pd.to_datetime(row["FL_DATE"]).date(),
             day_of_week = int(row["DAY_OF_WEEK"]),
             flight_number = int(row["FL_NUM"]),
+            tail_num = str(row["TAIL_NUM"]) if pd.notnull(row["TAIL_NUM"]) else None,
             carrier_id = carrier.id,
             origin_id = origin.id,
             dest_id = dest.id,
@@ -101,5 +133,26 @@ def main():
     session.close()
     print(f"{BATCH_END - BATCH_START} lignes insérées.")
 
+
+
+def clean_table():
+    """
+    Nettoie la table Flight en supprimant les entrées avec des valeurs manquantes critiques.
+    """
+    session = get_session()
+
+    # Supprimer d'abord les tables dépendantes 
+    session.query(Flight).delete()
+    session.query(Airport).delete()
+    session.query(State).delete()
+    session.query(Carrier).delete()
+    session.query(TimeBlock).delete()
+
+    session.commit()
+    session.close()
+    print("Toutes les tables ont été vidées.")
+
+
 if __name__ == "__main__":
+    # clean_table()
     main()
