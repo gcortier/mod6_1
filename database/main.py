@@ -38,6 +38,25 @@ def download_parquet():
     except Exception as e:
         logger.error(f"Erreur lors du téléchargement du fichier Parquet: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+    
+@app.get("/download-parquet-test")
+def download_parquet_test():
+    """
+    Permet de télécharger un fichier Parquet avec un jeu de données qui n'appartient pas aux données d'entraînement.
+    """
+
+    parquet_path = "./flights/data/processed/sample_test_1000.parquet"
+    try:
+        if not os.path.exists(parquet_path):
+            logger.error(f"Fichier Parquet non trouvé: {parquet_path}")
+            raise HTTPException(status_code=404, detail="Fichier Parquet non trouvé.")
+        logger.info(f"Téléchargement du fichier Parquet: {parquet_path}")
+        return FileResponse(parquet_path, media_type="application/octet-stream", filename="adult_all.parquet")
+    except HTTPException as he:
+        raise he
+    except Exception as e:
+        logger.error(f"Erreur lors du téléchargement du fichier Parquet: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/flights/latest")
 def get_latest_flights():

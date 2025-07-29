@@ -32,12 +32,12 @@
 #### Associations
 - Un **Flight** est opéré par un **Carrier**
 - Un **Flight** part d’un **Airport** (origin) et arrive à un **Airport** (dest)
-- Un **Airport** appartient à un **State**
+- Un **Airport** appartient à un **State** mais un **State** peut avoir plusieurs **Airport**.
 - Un **Flight** a un créneau de départ (**TimeBlock**) et d’arrivée (**TimeBlock**)
 
 ---
 
-## 2. MLP (Modèle Logique de Données)
+## 2. MLD (Modèle Logique de Données)
 
 ### Tables et relations
 
@@ -81,27 +81,3 @@
 - Les codes (`code`) sont uniques pour les tables de référence.
 - Un aéroport appartient à un seul état, mais un état peut avoir plusieurs aéroports.
 - Un vol référence toujours un transporteur, un aéroport de départ et d’arrivée.
-code (unique, not null)
-city_name
-wac
-state_id (FK → state.id)
-time_block
-id (PK)
-block (unique, not null)
-flight
-id (PK)
-flight_date (date, not null)
-day_of_week (smallint, not null)
-flight_number (int, not null)
-tail_num (varchar)
-carrier_id (FK → carrier.id, not null)
-origin_id (FK → airport.id, not null)
-dest_id (FK → airport.id, not null)
-dep_time_blk_id (FK → time_block.id)
-arr_time_blk_id (FK → time_block.id)
-crs_dep_time, dep_time, dep_delay, dep_delay_new, dep_del15, dep_delay_group, taxi_out, wheels_off, wheels_on, taxi_in, crs_arr_time, arr_time, arr_delay, arr_delay_new, arr_del15, arr_delay_group, cancelled, cancellation_code, diverted, crs_elapsed_time, actual_elapsed_time, air_time
-Contraintes
-Les clés étrangères assurent l’intégrité référentielle entre les tables.
-Les codes (code) sont uniques pour les tables de référence.
-Un aéroport appartient à un seul état, mais un état peut avoir plusieurs aéroports.
-Un vol référence toujours un transporteur, un aéroport de départ et d’arrivée.

@@ -1,107 +1,13 @@
-import sys
-import os
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-
-from fastapi import FastAPI, Form, UploadFile, File
-from fastapi.responses import JSONResponse
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
-from loguru import logger
-from modules.calcul import calcul_carre
-from modules.mnist import predict_digit, save_correction
-from prometheus_fastapi_instrumentator import Instrumentator
-from prometheus_client import Counter, Gauge
-
 from typing import List, Optional, Any
 import mlflow.sklearn
 import pandas as pd
 import requests
 import io
+import os
 
-
-## Base initialisation for Loguru and FastAPI
-from api_mlflow import setup_loguru, app, Request, HTTPException
-logger = setup_loguru("logs/main_api.log")
-
-class NumberRequest(BaseModel):
-    number: int
-
-# @app.post("/calcul")
-# def calcul(req: NumberRequest):
-#     result = calcul_carre(req.number)
-#     logger.info(f"Calcul du carré pour: {req.number} : result : {result}")
-#     return {"result": result}
-
-
-data_counter = Counter("data_value_total", "Compteur des valeurs reçues sur /data", ["value"])
-correction_counter = Counter("correction_value_total", "Compteur des valeurs reçues sur /correct", ["value"])
-train_accuracy = Gauge("train_accuracy", "Accuracy du modèle entraîné", ["type"])
-train_f1 = Gauge("train_f1", "F1-score du modèle entraîné", ["type"])
-train_duration = Gauge("train_duration_seconds", "Durée d'entraînement du modèle", ["type"])
-
-
-@app.post("/data")
-async def receive_color(data: str = Form(...)):
-    logger.info(f"Received data: {data}")
-    data_counter.labels(value=data).inc()
-    return {"message": f"data {data} received"}
-
-
-
-# @app.post("/correct")
-# async def correct(file: UploadFile = File(...), pred: int = Form(...), correction: int = Form(...)):
-#     logger.info(f"Received file for correction: {file.filename} : {pred} ==> {correction}")
-   
-   
-#     try:
-#         image_bytes = await file.read()
-#         save_correction(image_bytes, pred, correction, logger)
-#         return JSONResponse({"status": "ok"})
-#     except Exception as e:
-#         logger.error(f"Erreur during correction save : {e}")
-#         raise HTTPException(status_code=500, detail=f"Erreur lors de la sauvegarde de la correction : {e}")
-
-
-
-from training.train import train_model
-from training.train_dl import train_dl_model, train_gbm_model
-
-class TrainResponse(BaseModel):
-    accuracy: float
-    f1: float
-    duration: float
-    model_path: str
-    cpu_usage: float = None
-
-@app.post("/train")
-def train_route(type: str = "gbm"):
-    """
-    Lance l'entraînement du modèle ML ou DL selon le paramètre 'type'.
-    Retourne les métriques principales.
-    """
-    logger.info(f"train_route: {type}")
-    try:
-        if type == "ml":
-            result = train_model()
-        elif type == "dl":
-            result = train_dl_model()
-        elif type == "gbm":
-            result = train_gbm_model()
-        else:
-            raise HTTPException(status_code=400, detail="Type de modèle inconnu. Utilisez 'ml', 'dl' ou 'gbm'")
-        # Mise à jour des métriques Prometheus
-        train_accuracy.labels(type=type).set(result["accuracy"])
-        train_f1.labels(type=type).set(result["f1"])
-        train_duration.labels(type=type).set(result["duration"])
-        logger.info(f"Entraînement {type} terminé: {result}")
-        return TrainResponse(**result)
-    except Exception as e:
-        logger.error(f"Erreur lors de l'entraînement {type}: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
-
-
-
+# DATABASE_API_URL = "http://database-app:8011"
 DATABASE_API_URL = os.environ.get("DATABASE_API_URL", "http://localhost:8011")
 
 # Liste des colonnes attendues (ordre et noms doivent correspondre au modèle)
@@ -131,7 +37,7 @@ class FlightInput(BaseModel):
 class FlightsBatch(BaseModel):
     data: List[FlightInput]
 
-
+router = APIRouter()
 
 mlFlowURL = os.environ.get("MLFLOW_TRACKING_URI", "http://localhost:5000")
 print(f"MLFlow URL: {mlFlowURL}")
@@ -194,7 +100,7 @@ def load_predict_sample_fromparquet_test(api_url="http://localhost:8000"):
     print(pred_resp.json())
 
 
-@app.post("/predict-gbm")
+@router.post("/predict-gbm")
 def predict_gbm(batch: FlightsBatch):
     if gbm_pipeline is None:
         raise HTTPException(status_code=500, detail="Modèle non chargé")
@@ -208,8 +114,7 @@ def predict_gbm(batch: FlightsBatch):
     results = []
     for i, item in enumerate(batch.data):
         res = {
-            "prediction": int(preds[i]),
-            "values": item.dict(exclude={"ARR_DEL15"})
+            "prediction": int(preds[i])
         }
         if item.ARR_DEL15 is not None:
             res["true"] = item.ARR_DEL15
@@ -218,15 +123,8 @@ def predict_gbm(batch: FlightsBatch):
     return {"results": results}
 
 
-
-
-
-# Export automatisé des endpoints pour Prometheus
-Instrumentator().instrument(app).expose(app)
-
-
-
-
 # --- Exécution directe pour test rapide ---
 if __name__ == "__main__":
     predict_gbm(None)
+    
+    #python -m training.predict_gbm

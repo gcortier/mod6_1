@@ -474,3 +474,25 @@ model_path
 2025-07-24T13:28:39.118417+0000 INFO Entraînement gbm terminé: {'accuracy': 0.9507333333333333, 'f1': 0.9492867252003149, 'duration': 3.2071616649627686, 'cpu_usage': 4.960000000000036, 'model_path': 'models/model_gbm.pkl'}
 2025-07-24T19:10:51.780741+0000 INFO Route '/' called by 172.18.0.1
 2025-07-24T19:11:08.227342+0000 INFO Route '/' called by 172.18.0.1
+2025-07-27T06:54:30.597561+0000 INFO train_route: gbm
+2025-07-27T06:54:30.943563+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-27T06:54:58.529550+0000 INFO Données chargées: shape=(100000, 15)
+2025-07-27T06:57:35.564127+0000 INFO Modèle LightGBM entraîné et sauvegardé.
+2025-07-27T06:57:35.564543+0000 INFO Accuracy=0.9507, F1=0.9493, Durée entraînement=8.73s, CPU=9.59s
+2025-07-27T06:57:35.743725+0000 INFO Entraînement gbm terminé: {'accuracy': 0.9507333333333333, 'f1': 0.9492867252003149, 'duration': 8.734827995300293, 'cpu_usage': 9.590000000000146, 'model_path': 'models/model_gbm.pkl'}
+2025-07-27T07:04:57.875681+0000 INFO train_route: gbm
+2025-07-27T07:04:57.876522+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-27T07:04:58.685341+0000 INFO Données chargées: shape=(100000, 15)
+2025-07-27T07:05:00.091569+0000 ERROR Erreur lors de l'entraînement gbm: name 'np' is not defined
+2025-07-27T07:06:30.463015+0000 INFO train_route: gbm
+2025-07-27T07:06:30.463711+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-27T07:06:30.529696+0000 INFO Données chargées: shape=(100000, 15)
+2025-07-27T07:06:40.376157+0000 INFO Modèle LightGBM entraîné et sauvegardé.
+2025-07-27T07:06:40.394373+0000 INFO Accuracy=0.9362, F1=0.9374, Durée entraînement=1.58s, CPU=4.48s
+2025-07-27T07:06:40.632842+0000 INFO Entraînement gbm terminé: {'accuracy': 0.9361666666666667, 'f1': 0.937368861275697, 'duration': 1.581164836883545, 'cpu_usage': 4.480000000003201, 'model_path': 'models/model_gbm.pkl'}
+2025-07-28T12:59:00.452902+0000 INFO train_route: gbm
+2025-07-28T12:59:00.453544+0000 INFO Début du téléchargement du fichier Parquet...
+2025-07-28T12:59:05.765863+0000 INFO Données chargées: shape=(100000, 15)
+2025-07-28T12:59:18.636360+0000 INFO Modèle LightGBM entraîné et sauvegardé.
+2025-07-28T12:59:18.636735+0000 INFO Accuracy=0.9111, F1=0.9110, Durée entraînement=1.75s, CPU=4.26s
+2025-07-28T12:59:18.777935+0000 INFO Entraînement gbm terminé: {'accuracy': 0.9110666666666667, 'f1': 0.9110218307167935, 'duration': 1.7543656826019287, 'cpu_usage': 4.259999999998399, 'model_path': 'models/model_gbm.pkl'}

@@ -293,7 +293,7 @@
     },
     {
       "name": "ARR_TIME",
-      "description": "Biais de prédiction:Heure réelle d'arrivée",
+      "description": "Biais de prédiction: Heure réelle d'arrivée",
       "type": "str",
       "keep": false,
       "is_describe_in_topic": true
