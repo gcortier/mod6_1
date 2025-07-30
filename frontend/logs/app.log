@@ -2844,3 +2844,30 @@
 2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
 2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
 2025-07-12 14:19:58.370 | INFO     | __main__:<module>:101 - Envoi de l'image pour correction à l'API : {'pred': 2, 'correction': 8}
+2025-07-29 13:44:24.638 | INFO     | __main__:<module>:42 - Sent data: Red
+2025-07-29 13:44:24.638 | INFO     | __main__:<module>:42 - Sent data: Red
+2025-07-29 13:44:24.638 | INFO     | __main__:<module>:42 - Sent data: Red
+2025-07-29 13:44:24.638 | INFO     | __main__:<module>:42 - Sent data: Red
+2025-07-29 13:44:24.638 | INFO     | __main__:<module>:42 - Sent data: Red
+2025-07-29 13:44:27.015 | INFO     | __main__:<module>:42 - Sent data: Green
+2025-07-29 13:44:27.015 | INFO     | __main__:<module>:42 - Sent data: Green
+2025-07-29 13:44:27.015 | INFO     | __main__:<module>:42 - Sent data: Green
+2025-07-29 13:44:27.015 | INFO     | __main__:<module>:42 - Sent data: Green
+2025-07-29 13:44:27.015 | INFO     | __main__:<module>:42 - Sent data: Green
+2025-07-29 13:44:27.015 | INFO     | __main__:<module>:42 - Sent data: Green
+2025-07-29 13:44:27.015 | INFO     | __main__:<module>:42 - Sent data: Green
+2025-07-29 13:44:27.015 | INFO     | __main__:<module>:42 - Sent data: Green
+2025-07-29 13:44:27.015 | INFO     | __main__:<module>:42 - Sent data: Green
+2025-07-29 13:44:27.015 | INFO     | __main__:<module>:42 - Sent data: Green
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow
+2025-07-29 13:44:31.016 | INFO     | __main__:<module>:42 - Sent data: Yellow

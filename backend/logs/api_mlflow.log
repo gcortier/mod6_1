@@ -185,3 +185,16 @@
 2025-07-28T14:54:53.860775+0000 INFO MLFlow tracking URI: http://mlflow:5000
 2025-07-29T06:57:49.309748+0000 INFO MLFlow tracking URI: http://mlflow:5000
 2025-07-29T07:11:57.506965+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-29T09:49:49.779992+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-29T14:08:18.132899+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-29T14:11:08.259128+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-29T14:11:45.520275+0200 INFO MLFlow tracking URI: http://localhost:5000
+2025-07-29T12:21:41.193476+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-29T12:33:25.205721+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-29T12:37:20.889666+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-29T12:42:10.152575+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-29T12:44:59.417434+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-29T12:54:20.036310+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-29T12:56:56.545359+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-29T13:05:30.061160+0000 INFO MLFlow tracking URI: http://mlflow:5000
+2025-07-29T14:59:48.824552+0000 INFO MLFlow tracking URI: http://mlflow:5000

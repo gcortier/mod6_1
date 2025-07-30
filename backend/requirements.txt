@@ -14,3 +14,4 @@ scikit-learn
 mlflow
 optuna
 lightgbm
+pytest

@@ -88,3 +88,14 @@ weighted avg      0.901     0.899     0.899      3000
 - Pour des données tabulaires, les modèles d'arbres (RandomForest, LightGBM, XGBoost) sont souvent les plus efficaces.
 - Les réseaux de neurones sont surtout utiles pour des données non structurées (images, texte, son).
 - Les modèles linéaires restent utiles pour leur simplicité et leur interprétabilité.
+
+
+
+
+
+Type	Sortie	Supervision	Exemples	Métriques principales
+Régression	Valeur	Oui	Prix, durée, note	MAE, RMSE, R²
+Classification	Catégorie	Oui	Spam, maladie, churn	Accuracy, Recall, F1, ROC-AUC
+Clustering	Groupe	Non	Segmentation, regroupement	Silhouette, Davies-Bouldin
+Séries temporelles	Valeur vs temps	Oui/Non	Ventes futures, météo	MAPE, sMAPE, RMSE
+Anomalies	Label binaire ou score	Oui / Non	Fraude, défauts	Recall, F1, Isolation score

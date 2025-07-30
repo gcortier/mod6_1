@@ -64,6 +64,7 @@ docker compose up --build
 ```
 - Frontend : http://localhost:8501
 - Backend : http://localhost:8000/docs
+- Database Backend : http://localhost:8011/docs
 
 ### 2. Lancer les tests backend (optionnel, hors Docker)
 ```bash

@@ -1,6 +1,8 @@
 FROM python:3.11-slim
 WORKDIR /app
 COPY app.py .
+COPY home.py .
+COPY pages ./pages
 COPY logs ./logs
 COPY requirements.txt ./
 RUN pip install -r requirements.txt

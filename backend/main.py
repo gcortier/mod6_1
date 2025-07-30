@@ -153,49 +153,61 @@ except Exception as e:
 
 
 # --- Fonction utilitaire pour tester la prédiction sur une donnée de test téléchargée ---
-def load_predict_sample_fromparquet_test(api_url="http://localhost:8000"):
+@app.post("/load-predict-sample")
+def load_predict_sample_fromparquet_test(api_url=DATABASE_API_URL):
     """
     Télécharge le fichier de test via /download-parquet-test, sélectionne une ligne, la formate et l'envoie à /predict-gbm.
     """
+    logger.info(f"load_predict_sample_fromparquet_test: {api_url}")
     # 1. Télécharger le fichier Parquet de test
+    
     url = f"{api_url}/download-parquet-test"
-    print(f"Téléchargement du fichier de test depuis {url} ...")
+    logger.info(f"Téléchargement du fichier de test depuis {url} ...")
     resp = requests.get(url)
     if resp.status_code != 200:
-        print(f"Erreur lors du téléchargement: {resp.status_code}")
+        logger.error(f"Erreur lors du téléchargement: {resp.status_code}")
         return
     # 2. Charger le fichier Parquet en DataFrame
     try:
         df = pd.read_parquet(io.BytesIO(resp.content))
-    except Exception:
-        # Si c'est un CSV (parfois plus simple à manipuler)
-        try:
-            df = pd.read_csv(io.BytesIO(resp.content))
-        except Exception as e:
-            print(f"Erreur de lecture du fichier: {e}")
-            return
-    print(f"Fichier chargé: {df.shape[0]} lignes")
-    # 3. Prendre une ligne au hasard
-    row = df.sample(1, random_state=42).iloc[0]
-    # 4. Formater pour FlightInput
-    # On garde uniquement les colonnes attendues (plus ARR_DEL15 si présente)
-    input_dict = {col: row[col] for col in GBM_FEATURES if col in row}
-    if "ARR_DEL15" in row:
-        input_dict["ARR_DEL15"] = int(row["ARR_DEL15"])
-    # 5. Envoyer à la route de prédiction
-    payload = {"data": [input_dict]}
-    pred_url = f"{api_url}/predict-gbm"
-    print(f"Envoi à {pred_url} ...")
-    pred_resp = requests.post(pred_url, json=payload)
-    if pred_resp.status_code != 200:
-        print(f"Erreur prédiction: {pred_resp.status_code} {pred_resp.text}")
+    except Exception as e:
+        logger.error(f"Erreur de lecture du fichier: {e}")
         return
-    print("Résultat de la prédiction:")
-    print(pred_resp.json())
+    logger.info(f"Fichier chargé: {df.shape[0]} lignes")
+   
+    
+    try:
+        # row = df.sample(1, random_state=42).iloc[0]
+        row = df.sample(1).iloc[0]
+        # Conversion des types pandas/numpy en types natifs Python
+        def convert_value(val, col=None):
+            import numpy as np
+            if isinstance(val, (np.integer, int)):
+                return int(val)
+            elif isinstance(val, (np.floating, float)):
+                return float(val)
+            elif isinstance(val, pd.Timestamp):
+                # Pour FL_DATE, retourne le timestamp en secondes
+                if col == "FL_DATE":
+                    return int(val.timestamp())
+                else:
+                    return val.strftime("%Y-%m-%d")
+            else:
+                return val
 
+        input_dict = {col: convert_value(row[col], col) for col in GBM_FEATURES if col in row}
+        if "ARR_DEL15" in row:
+            input_dict["ARR_DEL15"] = int(row["ARR_DEL15"])
+        payload = {"data": [input_dict]}
+        logger.info(f"Payload: {payload} ...")
+        return payload
+    except Exception as e:
+        logger.error("Erreur payload :", e)
+        return {"data": []}
 
 @app.post("/predict-gbm")
 def predict_gbm(batch: FlightsBatch):
+    logger.info(f"predict_gbm: {batch}")
     if gbm_pipeline is None:
         raise HTTPException(status_code=500, detail="Modèle non chargé")
     if batch is None:
@@ -229,4 +241,5 @@ Instrumentator().instrument(app).expose(app)
 
 # --- Exécution directe pour test rapide ---
 if __name__ == "__main__":
-    predict_gbm(None)
+    # predict_gbm(None)
+    load_predict_sample_fromparquet_test(DATABASE_API_URL)

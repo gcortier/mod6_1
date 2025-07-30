@@ -32,7 +32,7 @@ def download_parquet():
             logger.error(f"Fichier Parquet non trouvé: {parquet_path}")
             raise HTTPException(status_code=404, detail="Fichier Parquet non trouvé.")
         logger.info(f"Téléchargement du fichier Parquet: {parquet_path}")
-        return FileResponse(parquet_path, media_type="application/octet-stream", filename="adult_all.parquet")
+        return FileResponse(parquet_path, media_type="application/octet-stream", filename="sample_cleaned.parquet")
     except HTTPException as he:
         raise he
     except Exception as e:
@@ -51,7 +51,7 @@ def download_parquet_test():
             logger.error(f"Fichier Parquet non trouvé: {parquet_path}")
             raise HTTPException(status_code=404, detail="Fichier Parquet non trouvé.")
         logger.info(f"Téléchargement du fichier Parquet: {parquet_path}")
-        return FileResponse(parquet_path, media_type="application/octet-stream", filename="adult_all.parquet")
+        return FileResponse(parquet_path, media_type="application/octet-stream", filename="sample_test_1000.parquet")
     except HTTPException as he:
         raise he
     except Exception as e:
