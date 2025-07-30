@@ -1,7 +1,7 @@
 name: Build and Push Docker image
 on:
   push:
-    branches: [ main, mod8_td ]  # Branch to survey
+    branches: [ main, mod8_td_off ]  # Branch to survey
 jobs:
   build:
     runs-on: ubuntu-latest
