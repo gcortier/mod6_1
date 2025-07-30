@@ -2,7 +2,7 @@ name: Python application CI/CD
 
 on:
   push:
-    branches: [ main, dev ]  # Branch to survey
+    branches: [ main, mod8_td ]  # Branch to survey
   pull_request:
     branches: [ main ]
 
